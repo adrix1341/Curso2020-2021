@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://group56.org/zonas-verdes/"
+     xml:base="http://group56.org/zonas-verdes/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://group56.org/zonas-verdes/"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://group56.org/zonas-verdes/situadoen -->
+
+
+    <owl:ObjectProperty rdf:about="http://group56.org/zonas-verdes/situadoen">
+        <rdfs:domain rdf:resource="http://group56.org/zonas-verdes/Subepigrafe"/>
+        <rdfs:range rdf:resource="http://group56.org/zonas-verdes/SituacionDestino"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://group56.org/zonas-verdes/tieneApartado -->
+
+
+    <owl:ObjectProperty rdf:about="http://group56.org/zonas-verdes/tieneApartado">
+        <rdfs:domain rdf:resource="http://group56.org/zonas-verdes/Subepigrafe"/>
+        <rdfs:range rdf:resource="http://group56.org/zonas-verdes/Apartado"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://group56.org/zonas-verdes/tieneCalle -->
+
+
+    <owl:ObjectProperty rdf:about="http://group56.org/zonas-verdes/tieneCalle">
+        <rdfs:domain rdf:resource="http://group56.org/zonas-verdes/Distrito"/>
+        <rdfs:range rdf:resource="http://group56.org/zonas-verdes/SituacionDestino"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://group56.org/zonas-verdes/tieneDestino -->
+
+
+    <owl:ObjectProperty rdf:about="http://group56.org/zonas-verdes/tieneDestino">
+        <rdfs:domain rdf:resource="http://group56.org/zonas-verdes/Subepigrafe"/>
+        <rdfs:range rdf:resource="http://group56.org/zonas-verdes/Destino"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://group56.org/zonas-verdes/tieneNaturaleza -->
+
+
+    <owl:ObjectProperty rdf:about="http://group56.org/zonas-verdes/tieneNaturaleza">
+        <rdfs:domain rdf:resource="http://group56.org/zonas-verdes/Distrito"/>
+        <rdfs:range rdf:resource="http://group56.org/zonas-verdes/NaturalezaInmueble"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://group56.org/zonas-verdes/tieneNdeArchivo -->
+
+
+    <owl:ObjectProperty rdf:about="http://group56.org/zonas-verdes/tieneNdeArchivo">
+        <rdfs:domain rdf:resource="http://group56.org/zonas-verdes/Subepigrafe"/>
+        <rdfs:range rdf:resource="http://group56.org/zonas-verdes/NdeArchivo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://group56.org/zonas-verdes/tieneSolar -->
+
+
+    <owl:ObjectProperty rdf:about="http://group56.org/zonas-verdes/tieneSolar">
+        <rdfs:domain rdf:resource="http://group56.org/zonas-verdes/Subepigrafe"/>
+        <rdfs:range rdf:resource="http://group56.org/zonas-verdes/Solar"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://group56.org/zonas-verdes/tieneSubepigrafe -->
+
+
+    <owl:ObjectProperty rdf:about="http://group56.org/zonas-verdes/tieneSubepigrafe">
+        <rdfs:domain rdf:resource="http://group56.org/zonas-verdes/Distrito"/>
+        <rdfs:range rdf:resource="http://group56.org/zonas-verdes/Subepigrafe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://group56.org/zonas-verdes/nombreApartado -->
+
+
+    <owl:DatatypeProperty rdf:about="http://group56.org/zonas-verdes/nombreApartado">
+        <rdfs:domain rdf:resource="http://group56.org/zonas-verdes/Apartado"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://group56.org/zonas-verdes/nombreCalle -->
+
+
+    <owl:DatatypeProperty rdf:about="http://group56.org/zonas-verdes/nombreCalle">
+        <rdfs:domain rdf:resource="http://group56.org/zonas-verdes/SituacionDestino"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://group56.org/zonas-verdes/nombreDestino -->
+
+
+    <owl:DatatypeProperty rdf:about="http://group56.org/zonas-verdes/nombreDestino">
+        <rdfs:domain rdf:resource="http://group56.org/zonas-verdes/Destino"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://group56.org/zonas-verdes/nombreDistrito -->
+
+
+    <owl:DatatypeProperty rdf:about="http://group56.org/zonas-verdes/nombreDistrito">
+        <rdfs:domain rdf:resource="http://group56.org/zonas-verdes/Distrito"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://group56.org/zonas-verdes/nombreNaturaleza -->
+
+
+    <owl:DatatypeProperty rdf:about="http://group56.org/zonas-verdes/nombreNaturaleza">
+        <rdfs:domain rdf:resource="http://group56.org/zonas-verdes/NaturalezaInmueble"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://group56.org/zonas-verdes/nombreSubepigrafe -->
+
+
+    <owl:DatatypeProperty rdf:about="http://group56.org/zonas-verdes/nombreSubepigrafe">
+        <rdfs:domain rdf:resource="http://group56.org/zonas-verdes/Subepigrafe"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://group56.org/zonas-verdes/numeroArchivo -->
+
+
+    <owl:DatatypeProperty rdf:about="http://group56.org/zonas-verdes/numeroArchivo">
+        <rdfs:domain rdf:resource="http://group56.org/zonas-verdes/NdeArchivo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://group56.org/zonas-verdes/tamanioSolar -->
+
+
+    <owl:DatatypeProperty rdf:about="http://group56.org/zonas-verdes/tamanioSolar">
+        <rdfs:domain rdf:resource="http://group56.org/zonas-verdes/Solar"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://group56.org/zonas-verdes/Apartado -->
+
+
+    <owl:Class rdf:about="http://group56.org/zonas-verdes/Apartado"/>
+    
+
+
+    <!-- http://group56.org/zonas-verdes/Destino -->
+
+
+    <owl:Class rdf:about="http://group56.org/zonas-verdes/Destino"/>
+    
+
+
+    <!-- http://group56.org/zonas-verdes/Distrito -->
+
+
+    <owl:Class rdf:about="http://group56.org/zonas-verdes/Distrito"/>
+    
+
+
+    <!-- http://group56.org/zonas-verdes/NaturalezaInmueble -->
+
+
+    <owl:Class rdf:about="http://group56.org/zonas-verdes/NaturalezaInmueble"/>
+    
+
+
+    <!-- http://group56.org/zonas-verdes/NdeArchivo -->
+
+
+    <owl:Class rdf:about="http://group56.org/zonas-verdes/NdeArchivo"/>
+    
+
+
+    <!-- http://group56.org/zonas-verdes/SituacionDestino -->
+
+
+    <owl:Class rdf:about="http://group56.org/zonas-verdes/SituacionDestino"/>
+    
+
+
+    <!-- http://group56.org/zonas-verdes/Solar -->
+
+
+    <owl:Class rdf:about="http://group56.org/zonas-verdes/Solar"/>
+    
+
+
+    <!-- http://group56.org/zonas-verdes/Subepigrafe -->
+
+
+    <owl:Class rdf:about="http://group56.org/zonas-verdes/Subepigrafe"/>
+    <owl:Thing/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+

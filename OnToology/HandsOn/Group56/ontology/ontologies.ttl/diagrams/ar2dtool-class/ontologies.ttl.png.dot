@@ -1,0 +1,22 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "base:Subepigrafe" "base:Solar" "base:SituacionDestino" "base:NdeArchivo" "base:NaturalezaInmueble" "base:Distrito" "base:Destino" "base:Apartado" ; /*classes style*/
+	"base:Subepigrafe" -> "base:NdeArchivo" [ label = "base:tieneNdeArchivo" ];
+	"base:Apartado" -> "xsd:string" [ label = "base:nombreApartado" ];
+	"base:NaturalezaInmueble" -> "xsd:string" [ label = "base:nombreNaturaleza" ];
+	"base:Subepigrafe" -> "base:Solar" [ label = "base:tieneSolar" ];
+	"base:SituacionDestino" -> "xsd:string" [ label = "base:nombreCalle" ];
+	"base:Distrito" -> "base:NaturalezaInmueble" [ label = "base:tieneNaturaleza" ];
+	"base:Subepigrafe" -> "xsd:string" [ label = "base:nombreSubepigrafe" ];
+	"base:Distrito" -> "base:SituacionDestino" [ label = "base:tieneCalle" ];
+	"base:Solar" -> "xsd:double" [ label = "base:tamanioSolar" ];
+	"base:Destino" -> "xsd:string" [ label = "base:nombreDestino" ];
+	"base:Distrito" -> "xsd:string" [ label = "base:nombreDistrito" ];
+	"base:Subepigrafe" -> "base:Apartado" [ label = "base:tieneApartado" ];
+	"base:NdeArchivo" -> "xsd:integer" [ label = "base:numeroArchivo" ];
+	"base:Distrito" -> "base:Subepigrafe" [ label = "base:tieneSubepigrafe" ];
+	"base:Subepigrafe" -> "base:Destino" [ label = "base:tieneDestino" ];
+	"base:Subepigrafe" -> "base:SituacionDestino" [ label = "base:situadoen" ];
+
+}
