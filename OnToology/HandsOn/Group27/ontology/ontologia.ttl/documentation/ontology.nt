@@ -1,0 +1,83 @@
+<http://api.zonasverdesmadrid.es> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://api.zonasverdesmadrid.es#hasHeightAverage
+<http://api.zonasverdesmadrid.es#hasHeightAverage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://api.zonasverdesmadrid.es#hasHeightAverage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://api.zonasverdesmadrid.es#District> .
+<http://api.zonasverdesmadrid.es#hasHeightAverage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://api.zonasverdesmadrid.es#hasId
+<http://api.zonasverdesmadrid.es#hasId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://api.zonasverdesmadrid.es#hasId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://api.zonasverdesmadrid.es#District> .
+<http://api.zonasverdesmadrid.es#hasId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://api.zonasverdesmadrid.es#hasJustPlanted
+<http://api.zonasverdesmadrid.es#hasJustPlanted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://api.zonasverdesmadrid.es#hasJustPlanted> <http://www.w3.org/2000/01/rdf-schema#domain> <http://api.zonasverdesmadrid.es#District> .
+<http://api.zonasverdesmadrid.es#hasJustPlanted> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://api.zonasverdesmadrid.es#hasMature
+<http://api.zonasverdesmadrid.es#hasMature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://api.zonasverdesmadrid.es#hasMature> <http://www.w3.org/2000/01/rdf-schema#domain> <http://api.zonasverdesmadrid.es#District> .
+<http://api.zonasverdesmadrid.es#hasMature> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://api.zonasverdesmadrid.es#hasName
+<http://api.zonasverdesmadrid.es#hasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://api.zonasverdesmadrid.es#hasName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://api.zonasverdesmadrid.es#District> .
+<http://api.zonasverdesmadrid.es#hasName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://api.zonasverdesmadrid.es#hasOld
+<http://api.zonasverdesmadrid.es#hasOld> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://api.zonasverdesmadrid.es#hasOld> <http://www.w3.org/2000/01/rdf-schema#domain> <http://api.zonasverdesmadrid.es#District> .
+<http://api.zonasverdesmadrid.es#hasOld> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://api.zonasverdesmadrid.es#hasOthers
+<http://api.zonasverdesmadrid.es#hasOthers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://api.zonasverdesmadrid.es#hasOthers> <http://www.w3.org/2000/01/rdf-schema#domain> <http://api.zonasverdesmadrid.es#District> .
+<http://api.zonasverdesmadrid.es#hasOthers> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://api.zonasverdesmadrid.es#hasPerimeterAverage
+<http://api.zonasverdesmadrid.es#hasPerimeterAverage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://api.zonasverdesmadrid.es#hasPerimeterAverage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://api.zonasverdesmadrid.es#District> .
+<http://api.zonasverdesmadrid.es#hasPerimeterAverage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://api.zonasverdesmadrid.es#hasSpecies
+<http://api.zonasverdesmadrid.es#hasSpecies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://api.zonasverdesmadrid.es#hasSpecies> <http://www.w3.org/2000/01/rdf-schema#domain> <http://api.zonasverdesmadrid.es#District> .
+<http://api.zonasverdesmadrid.es#hasSpecies> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://api.zonasverdesmadrid.es#hasTotal
+<http://api.zonasverdesmadrid.es#hasTotal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://api.zonasverdesmadrid.es#hasTotal> <http://www.w3.org/2000/01/rdf-schema#domain> <http://api.zonasverdesmadrid.es#District> .
+<http://api.zonasverdesmadrid.es#hasTotal> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://api.zonasverdesmadrid.es#hasUnits
+<http://api.zonasverdesmadrid.es#hasUnits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://api.zonasverdesmadrid.es#hasUnits> <http://www.w3.org/2000/01/rdf-schema#domain> <http://api.zonasverdesmadrid.es#District> .
+<http://api.zonasverdesmadrid.es#hasUnits> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://api.zonasverdesmadrid.es#hasYoung
+<http://api.zonasverdesmadrid.es#hasYoung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://api.zonasverdesmadrid.es#hasYoung> <http://www.w3.org/2000/01/rdf-schema#domain> <http://api.zonasverdesmadrid.es#District> .
+<http://api.zonasverdesmadrid.es#hasYoung> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://api.zonasverdesmadrid.es#District
+<http://api.zonasverdesmadrid.es#District> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

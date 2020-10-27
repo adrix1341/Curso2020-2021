@@ -1,0 +1,26 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+	"NULL" -> "base:Conductividad" [ label = "owl:onProperty" ];
+	"NULL" -> "base:uri" [ label = "owl:onProperty" ];
+	"NULL" -> "base:BacteriasColiformes" [ label = "owl:onProperty" ];
+	"NULL" -> "xsd:string" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "base:BacteriasAerobias" [ label = "owl:onProperty" ];
+	"NULL" -> "base:id" [ label = "owl:onProperty" ];
+	"NULL" -> "base:Color" [ label = "owl:onProperty" ];
+	"NULL" -> "base:ClostridiumPerfringes" [ label = "owl:onProperty" ];
+	"NULL" -> "xsd:dateTimeStamp" [ label = "owl:onDataRange" ];
+	"NULL" -> "base:Olor" [ label = "owl:onProperty" ];
+	"NULL" -> "base:Ph" [ label = "owl:onProperty" ];
+	"NULL" -> "base:Sabor" [ label = "owl:onProperty" ];
+	"NULL" -> "xsd:double" [ label = "owl:onDataRange" ];
+	"NULL" -> "base:CloroLibre" [ label = "owl:onProperty" ];
+	"NULL" -> "base:Turbidez" [ label = "owl:onProperty" ];
+	"NULL" -> "base:Oxidabilidad" [ label = "owl:onProperty" ];
+	"NULL" -> "base:modified" [ label = "owl:onProperty" ];
+	"NULL" -> "xsd:string" [ label = "owl:onDataRange" ];
+	"NULL" -> "base:Fecha" [ label = "owl:onProperty" ];
+	"NULL" -> "base:PuntoMuestreo" [ label = "owl:onProperty" ];
+	"NULL" -> "base:eColi" [ label = "owl:onProperty" ];
+
+}

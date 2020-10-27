@@ -1,0 +1,54 @@
+{
+  "@context" : {
+    "terminales" : {
+      "@id" : "http://www.eletricrechargemadrid.com/properties#terminales",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "coordenada_x" : {
+      "@id" : "http://www.eletricrechargemadrid.com/properties#coordenada_x",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "distrito" : {
+      "@id" : "http://www.eletricrechargemadrid.com/properties#distrito",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "conectores" : {
+      "@id" : "http://www.eletricrechargemadrid.com/properties#conectores",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "numero_calle" : {
+      "@id" : "http://www.eletricrechargemadrid.com/properties#numero_calle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "nombre_calle" : {
+      "@id" : "http://www.eletricrechargemadrid.com/properties#nombre_calle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "potencia" : {
+      "@id" : "http://www.eletricrechargemadrid.com/properties#potencia",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Ubicacion" : {
+      "@id" : "https://www.eletricrechargemadrid.com/classes#Ubicacion"
+    },
+    "localizacion" : {
+      "@id" : "http://www.eletricrechargemadrid.com/properties#localizacion",
+      "@type" : "@id"
+    },
+    "Punto_recarga" : {
+      "@id" : "https://www.eletricrechargemadrid.com/classes#Punto_recarga"
+    },
+    "edificio" : {
+      "@id" : "http://www.eletricrechargemadrid.com/properties#edificio",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "coordenada_y" : {
+      "@id" : "http://www.eletricrechargemadrid.com/properties#coordenada_y",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "codigo" : {
+      "@id" : "http://www.eletricrechargemadrid.com/properties#codigo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }
+}

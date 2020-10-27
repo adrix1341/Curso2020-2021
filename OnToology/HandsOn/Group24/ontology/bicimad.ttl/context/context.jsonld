@@ -1,0 +1,76 @@
+{
+  "@context" : {
+    "Neighbourhood" : {
+      "@id" : "http://www.semanticweb.org/bicimad/classes#Neighbourhood"
+    },
+    "neighbourhood_number" : {
+      "@id" : "http://www.semanticweb.org/bicimad/properties#neighbourhood_number",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "position_x" : {
+      "@id" : "http://www.semanticweb.org/bicimad/properties#position_x",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "District" : {
+      "@id" : "http://www.semanticweb.org/bicimad/classes#District"
+    },
+    "has_street" : {
+      "@id" : "http://www.semanticweb.org/bicimad/properties#has_street",
+      "@type" : "@id"
+    },
+    "longitude" : {
+      "@id" : "http://www.semanticweb.org/bicimad/properties#longitude",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "Street" : {
+      "@id" : "http://www.semanticweb.org/bicimad/classes#Street"
+    },
+    "latitude" : {
+      "@id" : "http://www.semanticweb.org/bicimad/properties#latitude",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "district_number" : {
+      "@id" : "http://www.semanticweb.org/bicimad/properties#district_number",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "street_name" : {
+      "@id" : "http://www.semanticweb.org/bicimad/properties#street_name",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "street_number" : {
+      "@id" : "http://www.semanticweb.org/bicimad/properties#street_number",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "has_neighourhood" : {
+      "@id" : "http://www.semanticweb.org/bicimad/properties#has_neighourhood",
+      "@type" : "@id"
+    },
+    "neighbourhood_name" : {
+      "@id" : "http://www.semanticweb.org/bicimad/properties#neighbourhood_name",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "district_name" : {
+      "@id" : "http://www.semanticweb.org/bicimad/properties#district_name",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Bike_Station" : {
+      "@id" : "http://www.semanticweb.org/bicimad/classes#Bike_Station"
+    },
+    "has_district" : {
+      "@id" : "http://www.semanticweb.org/bicimad/properties#has_district",
+      "@type" : "@id"
+    },
+    "registration_Date" : {
+      "@id" : "http://www.semanticweb.org/bicimad/properties#registration_Date",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "spots" : {
+      "@id" : "http://www.semanticweb.org/bicimad/properties#spots",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "position_y" : {
+      "@id" : "http://www.semanticweb.org/bicimad/properties#position_y",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    }
+  }
+}

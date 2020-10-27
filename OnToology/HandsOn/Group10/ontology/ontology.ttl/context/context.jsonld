@@ -1,0 +1,45 @@
+{
+  "@context" : {
+    "indicatorCode" : {
+      "@id" : "http://group10.org/hands-on/ontology#indicatorCode",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Country" : {
+      "@id" : "http://group10.org/hands-on/ontology#Country"
+    },
+    "Indicator" : {
+      "@id" : "http://group10.org/hands-on/ontology#Indicator"
+    },
+    "hasIndicator" : {
+      "@id" : "http://group10.org/hands-on/ontology#hasIndicator",
+      "@type" : "@id"
+    },
+    "countryName" : {
+      "@id" : "http://group10.org/hands-on/ontology#countryName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Measure" : {
+      "@id" : "http://group10.org/hands-on/ontology#Measure"
+    },
+    "value" : {
+      "@id" : "http://group10.org/hands-on/ontology#value",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "hasMeasure" : {
+      "@id" : "http://group10.org/hands-on/ontology#hasMeasure",
+      "@type" : "@id"
+    },
+    "date" : {
+      "@id" : "http://group10.org/hands-on/ontology#date",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "countryISO3" : {
+      "@id" : "http://group10.org/hands-on/ontology#countryISO3",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "indicatorName" : {
+      "@id" : "http://group10.org/hands-on/ontology#indicatorName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }
+}

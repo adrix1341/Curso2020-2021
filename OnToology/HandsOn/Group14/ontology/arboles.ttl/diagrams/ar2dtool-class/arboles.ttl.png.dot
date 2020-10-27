@@ -1,0 +1,14 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "base:Species" "base:Park" "base:District" ; /*classes style*/
+	"base:Park" -> "xsd:string" [ label = "base:parkName" ];
+	"base:Species" -> "xsd:string" [ label = "base:speciesName" ];
+	"base:District" -> "xsd:string" [ label = "base:districtName" ];
+	"base:Species" -> "xsd:integer" [ label = "base:quantityPark" ];
+	"base:Species" -> "xsd:integer" [ label = "base:quantityDistrict" ];
+	"base:Species" -> "base:Park" [ label = "base:IsInPark" ];
+	"base:Species" -> "base:District" [ label = "base:IsInDistrict" ];
+	"base:Park" -> "xsd:string" [ label = "base:location" ];
+
+}

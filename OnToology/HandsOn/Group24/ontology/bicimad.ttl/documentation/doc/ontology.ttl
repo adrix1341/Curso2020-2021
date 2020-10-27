@@ -1,0 +1,137 @@
+@prefix : <http://www.semanticweb.org/bicimad/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/bicimad/> .
+
+<http://www.semanticweb.org/bicimad/> rdf:type owl:Ontology .
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/bicimad/properties#has_district
+<http://www.semanticweb.org/bicimad/properties#has_district> rdf:type owl:ObjectProperty ;
+                                                             rdfs:domain <http://www.semanticweb.org/bicimad/classes#Neighbourhood> ;
+                                                             rdfs:range <http://www.semanticweb.org/bicimad/classes#District> .
+
+
+###  http://www.semanticweb.org/bicimad/properties#has_neighourhood
+<http://www.semanticweb.org/bicimad/properties#has_neighourhood> rdf:type owl:ObjectProperty ;
+                                                                 rdfs:domain <http://www.semanticweb.org/bicimad/classes#Street> ;
+                                                                 rdfs:range <http://www.semanticweb.org/bicimad/classes#Neighbourhood> .
+
+
+###  http://www.semanticweb.org/bicimad/properties#has_street
+<http://www.semanticweb.org/bicimad/properties#has_street> rdf:type owl:ObjectProperty ;
+                                                           rdfs:domain <http://www.semanticweb.org/bicimad/classes#Bike_Station> ;
+                                                           rdfs:range <http://www.semanticweb.org/bicimad/classes#Street> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/bicimad/properties#district_name
+<http://www.semanticweb.org/bicimad/properties#district_name> rdf:type owl:DatatypeProperty ;
+                                                              rdfs:domain <http://www.semanticweb.org/bicimad/classes#District> ;
+                                                              rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/bicimad/properties#district_number
+<http://www.semanticweb.org/bicimad/properties#district_number> rdf:type owl:DatatypeProperty ;
+                                                                rdfs:domain <http://www.semanticweb.org/bicimad/classes#District> ;
+                                                                rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/bicimad/properties#latitude
+<http://www.semanticweb.org/bicimad/properties#latitude> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:domain <http://www.semanticweb.org/bicimad/classes#Bike_Station> ;
+                                                         rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/bicimad/properties#longitude
+<http://www.semanticweb.org/bicimad/properties#longitude> rdf:type owl:DatatypeProperty ;
+                                                          rdfs:domain <http://www.semanticweb.org/bicimad/classes#Bike_Station> ;
+                                                          rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/bicimad/properties#neighbourhood_name
+<http://www.semanticweb.org/bicimad/properties#neighbourhood_name> rdf:type owl:DatatypeProperty ;
+                                                                   rdfs:domain <http://www.semanticweb.org/bicimad/classes#Neighbourhood> ;
+                                                                   rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/bicimad/properties#neighbourhood_number
+<http://www.semanticweb.org/bicimad/properties#neighbourhood_number> rdf:type owl:DatatypeProperty ;
+                                                                     rdfs:domain <http://www.semanticweb.org/bicimad/classes#Neighbourhood> ;
+                                                                     rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/bicimad/properties#position_x
+<http://www.semanticweb.org/bicimad/properties#position_x> rdf:type owl:DatatypeProperty ;
+                                                           rdfs:domain <http://www.semanticweb.org/bicimad/classes#Bike_Station> ;
+                                                           rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/bicimad/properties#position_y
+<http://www.semanticweb.org/bicimad/properties#position_y> rdf:type owl:DatatypeProperty ;
+                                                           rdfs:domain <http://www.semanticweb.org/bicimad/classes#Bike_Station> ;
+                                                           rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/bicimad/properties#registration_Date
+<http://www.semanticweb.org/bicimad/properties#registration_Date> rdf:type owl:DatatypeProperty ;
+                                                                  rdfs:domain <http://www.semanticweb.org/bicimad/classes#Bike_Station> ;
+                                                                  rdfs:range xsd:date .
+
+
+###  http://www.semanticweb.org/bicimad/properties#spots
+<http://www.semanticweb.org/bicimad/properties#spots> rdf:type owl:DatatypeProperty ;
+                                                      rdfs:domain <http://www.semanticweb.org/bicimad/classes#Bike_Station> ;
+                                                      rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/bicimad/properties#street_name
+<http://www.semanticweb.org/bicimad/properties#street_name> rdf:type owl:DatatypeProperty ;
+                                                            rdfs:domain <http://www.semanticweb.org/bicimad/classes#Street> ;
+                                                            rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/bicimad/properties#street_number
+<http://www.semanticweb.org/bicimad/properties#street_number> rdf:type owl:DatatypeProperty ;
+                                                              rdfs:domain <http://www.semanticweb.org/bicimad/classes#Street> ;
+                                                              rdfs:range xsd:integer .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/bicimad/classes#Bike_Station
+<http://www.semanticweb.org/bicimad/classes#Bike_Station> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/bicimad/classes#District
+<http://www.semanticweb.org/bicimad/classes#District> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/bicimad/classes#Neighbourhood
+<http://www.semanticweb.org/bicimad/classes#Neighbourhood> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/bicimad/classes#Street
+<http://www.semanticweb.org/bicimad/classes#Street> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

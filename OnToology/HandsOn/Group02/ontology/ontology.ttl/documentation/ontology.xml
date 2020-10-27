@@ -1,0 +1,694 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://findyourparking.es/lcc/ontology/Parking#"
+     xml:base="http://findyourparking.es/lcc/ontology/Parking"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://findyourparking.es/lcc/ontology/Parking#"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#hasAddress -->
+
+
+    <owl:ObjectProperty rdf:about="http://findyourparking.es/lcc/ontology/Parking#hasAddress">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Address"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#hasContact -->
+
+
+    <owl:ObjectProperty rdf:about="http://findyourparking.es/lcc/ontology/Parking#hasContact">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Contact"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#hasCoordinates -->
+
+
+    <owl:ObjectProperty rdf:about="http://findyourparking.es/lcc/ontology/Parking#hasCoordinates">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Coordinates"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#hasInformation -->
+
+
+    <owl:ObjectProperty rdf:about="http://findyourparking.es/lcc/ontology/Parking#hasInformation">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Information"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#hasCity -->
+
+
+    <owl:DatatypeProperty rdf:about="http://findyourparking.es/lcc/ontology/Parking#hasCity">
+        <rdfs:domain rdf:resource="http://findyourparking.es/lcc/ontology/Parking#City"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#hasCoordX -->
+
+
+    <owl:DatatypeProperty rdf:about="http://findyourparking.es/lcc/ontology/Parking#hasCoordX">
+        <rdfs:domain rdf:resource="http://findyourparking.es/lcc/ontology/Parking#CoordX"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#hasCoordY -->
+
+
+    <owl:DatatypeProperty rdf:about="http://findyourparking.es/lcc/ontology/Parking#hasCoordY">
+        <rdfs:domain rdf:resource="http://findyourparking.es/lcc/ontology/Parking#CoordY"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#hasDistrict -->
+
+
+    <owl:DatatypeProperty rdf:about="http://findyourparking.es/lcc/ontology/Parking#hasDistrict">
+        <rdfs:domain rdf:resource="http://findyourparking.es/lcc/ontology/Parking#District"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#hasEmail -->
+
+
+    <owl:DatatypeProperty rdf:about="http://findyourparking.es/lcc/ontology/Parking#hasEmail">
+        <rdfs:domain rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Email"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#hasId -->
+
+
+    <owl:DatatypeProperty rdf:about="http://findyourparking.es/lcc/ontology/Parking#hasId">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#hasLatitude -->
+
+
+    <owl:DatatypeProperty rdf:about="http://findyourparking.es/lcc/ontology/Parking#hasLatitude">
+        <rdfs:domain rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Latitude"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#hasLongitude -->
+
+
+    <owl:DatatypeProperty rdf:about="http://findyourparking.es/lcc/ontology/Parking#hasLongitude">
+        <rdfs:domain rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Longitude"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#hasName -->
+
+
+    <owl:DatatypeProperty rdf:about="http://findyourparking.es/lcc/ontology/Parking#hasName">
+        <rdfs:domain rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Name"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood -->
+
+
+    <owl:DatatypeProperty rdf:about="http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood">
+        <rdfs:domain rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Neighborhood"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#hasNumber -->
+
+
+    <owl:DatatypeProperty rdf:about="http://findyourparking.es/lcc/ontology/Parking#hasNumber">
+        <rdfs:domain rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Number"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#hasPostalCode -->
+
+
+    <owl:DatatypeProperty rdf:about="http://findyourparking.es/lcc/ontology/Parking#hasPostalCode">
+        <rdfs:domain rdf:resource="http://findyourparking.es/lcc/ontology/Parking#PostalCode"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#hasProvince -->
+
+
+    <owl:DatatypeProperty rdf:about="http://findyourparking.es/lcc/ontology/Parking#hasProvince">
+        <rdfs:domain rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Province"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots -->
+
+
+    <owl:DatatypeProperty rdf:about="http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots">
+        <rdfs:domain rdf:resource="http://findyourparking.es/lcc/ontology/Parking#PublicSlots"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots -->
+
+
+    <owl:DatatypeProperty rdf:about="http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots">
+        <rdfs:domain rdf:resource="http://findyourparking.es/lcc/ontology/Parking#ResidentialSlots"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#hasSchedule -->
+
+
+    <owl:DatatypeProperty rdf:about="http://findyourparking.es/lcc/ontology/Parking#hasSchedule">
+        <rdfs:domain rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Schedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#hasStreetName -->
+
+
+    <owl:DatatypeProperty rdf:about="http://findyourparking.es/lcc/ontology/Parking#hasStreetName">
+        <rdfs:domain rdf:resource="http://findyourparking.es/lcc/ontology/Parking#StreetName"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#hasStreetType -->
+
+
+    <owl:DatatypeProperty rdf:about="http://findyourparking.es/lcc/ontology/Parking#hasStreetType">
+        <rdfs:domain rdf:resource="http://findyourparking.es/lcc/ontology/Parking#StreetType"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#hasTelephone -->
+
+
+    <owl:DatatypeProperty rdf:about="http://findyourparking.es/lcc/ontology/Parking#hasTelephone">
+        <rdfs:domain rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Telephone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots -->
+
+
+    <owl:DatatypeProperty rdf:about="http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots">
+        <rdfs:domain rdf:resource="http://findyourparking.es/lcc/ontology/Parking#TotalSlots"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#hasURLmoreinfo -->
+
+
+    <owl:DatatypeProperty rdf:about="http://findyourparking.es/lcc/ontology/Parking#hasURLmoreinfo">
+        <rdfs:domain rdf:resource="http://findyourparking.es/lcc/ontology/Parking#URLmoreinfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#Address -->
+
+
+    <owl:Class rdf:about="http://findyourparking.es/lcc/ontology/Parking#Address">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://findyourparking.es/lcc/ontology/Parking#hasProvince"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#City -->
+
+
+    <owl:Class rdf:about="http://findyourparking.es/lcc/ontology/Parking#City">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://findyourparking.es/lcc/ontology/Parking#hasDistrict"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Province"/>
+    </owl:Class>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#Contact -->
+
+
+    <owl:Class rdf:about="http://findyourparking.es/lcc/ontology/Parking#Contact">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://findyourparking.es/lcc/ontology/Parking#hasEmail"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://findyourparking.es/lcc/ontology/Parking#hasTelephone"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#CoordX -->
+
+
+    <owl:Class rdf:about="http://findyourparking.es/lcc/ontology/Parking#CoordX">
+        <rdfs:subClassOf rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Coordinates"/>
+    </owl:Class>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#CoordY -->
+
+
+    <owl:Class rdf:about="http://findyourparking.es/lcc/ontology/Parking#CoordY">
+        <rdfs:subClassOf rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Coordinates"/>
+    </owl:Class>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#Coordinates -->
+
+
+    <owl:Class rdf:about="http://findyourparking.es/lcc/ontology/Parking#Coordinates">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://findyourparking.es/lcc/ontology/Parking#hasCoordX"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://findyourparking.es/lcc/ontology/Parking#hasCoordY"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://findyourparking.es/lcc/ontology/Parking#hasLatitude"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://findyourparking.es/lcc/ontology/Parking#hasLongitude"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#District -->
+
+
+    <owl:Class rdf:about="http://findyourparking.es/lcc/ontology/Parking#District">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://findyourparking.es/lcc/ontology/Parking#City"/>
+    </owl:Class>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#Email -->
+
+
+    <owl:Class rdf:about="http://findyourparking.es/lcc/ontology/Parking#Email">
+        <rdfs:subClassOf rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Contact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#Id -->
+
+
+    <owl:Class rdf:about="http://findyourparking.es/lcc/ontology/Parking#Id"/>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#Information -->
+
+
+    <owl:Class rdf:about="http://findyourparking.es/lcc/ontology/Parking#Information">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://findyourparking.es/lcc/ontology/Parking#hasName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://findyourparking.es/lcc/ontology/Parking#hasSchedule"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://findyourparking.es/lcc/ontology/Parking#hasURLmoreinfo"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#Latitude -->
+
+
+    <owl:Class rdf:about="http://findyourparking.es/lcc/ontology/Parking#Latitude">
+        <rdfs:subClassOf rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Coordinates"/>
+    </owl:Class>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#Longitude -->
+
+
+    <owl:Class rdf:about="http://findyourparking.es/lcc/ontology/Parking#Longitude">
+        <rdfs:subClassOf rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Coordinates"/>
+    </owl:Class>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#Name -->
+
+
+    <owl:Class rdf:about="http://findyourparking.es/lcc/ontology/Parking#Name">
+        <rdfs:subClassOf rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#Neighborhood -->
+
+
+    <owl:Class rdf:about="http://findyourparking.es/lcc/ontology/Parking#Neighborhood">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://findyourparking.es/lcc/ontology/Parking#hasStreetName"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://findyourparking.es/lcc/ontology/Parking#hasStreetType"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://findyourparking.es/lcc/ontology/Parking#hasPostalCode"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://findyourparking.es/lcc/ontology/Parking#District"/>
+    </owl:Class>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#Number -->
+
+
+    <owl:Class rdf:about="http://findyourparking.es/lcc/ontology/Parking#Number">
+        <rdfs:subClassOf rdf:resource="http://findyourparking.es/lcc/ontology/Parking#StreetName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#PostalCode -->
+
+
+    <owl:Class rdf:about="http://findyourparking.es/lcc/ontology/Parking#PostalCode">
+        <rdfs:subClassOf rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Neighborhood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#Province -->
+
+
+    <owl:Class rdf:about="http://findyourparking.es/lcc/ontology/Parking#Province">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://findyourparking.es/lcc/ontology/Parking#hasCity"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Address"/>
+    </owl:Class>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#PublicSlots -->
+
+
+    <owl:Class rdf:about="http://findyourparking.es/lcc/ontology/Parking#PublicSlots">
+        <rdfs:subClassOf rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#ResidentialSlots -->
+
+
+    <owl:Class rdf:about="http://findyourparking.es/lcc/ontology/Parking#ResidentialSlots">
+        <rdfs:subClassOf rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#Schedule -->
+
+
+    <owl:Class rdf:about="http://findyourparking.es/lcc/ontology/Parking#Schedule">
+        <rdfs:subClassOf rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#StreetName -->
+
+
+    <owl:Class rdf:about="http://findyourparking.es/lcc/ontology/Parking#StreetName">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://findyourparking.es/lcc/ontology/Parking#hasNumber"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Neighborhood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#StreetType -->
+
+
+    <owl:Class rdf:about="http://findyourparking.es/lcc/ontology/Parking#StreetType">
+        <rdfs:subClassOf rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Neighborhood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#Telephone -->
+
+
+    <owl:Class rdf:about="http://findyourparking.es/lcc/ontology/Parking#Telephone">
+        <rdfs:subClassOf rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Contact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#TotalSlots -->
+
+
+    <owl:Class rdf:about="http://findyourparking.es/lcc/ontology/Parking#TotalSlots">
+        <rdfs:subClassOf rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://findyourparking.es/lcc/ontology/Parking#URLmoreinfo -->
+
+
+    <owl:Class rdf:about="http://findyourparking.es/lcc/ontology/Parking#URLmoreinfo">
+        <rdfs:subClassOf rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://findyourparking.es/lcc/ontology/Parking#hasContact"/>
+                <owl:someValuesFrom rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Contact"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://findyourparking.es/lcc/ontology/Parking#hasInformation"/>
+                <owl:someValuesFrom rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Information"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://findyourparking.es/lcc/ontology/Parking#hasAddress"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Address"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://findyourparking.es/lcc/ontology/Parking#hasCoordinates"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://findyourparking.es/lcc/ontology/Parking#Coordinates"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://findyourparking.es/lcc/ontology/Parking#hasId"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+

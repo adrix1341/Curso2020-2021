@@ -1,0 +1,16 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "classes:Company" "classes:Availability" "classes:Neighbourhood" "classes:District" "classes:Place" ; /*classes style*/
+	"classes:Company" -> "http://dbpedia.org/ontology/Company" [ label = "rdfs:seeAlso" ];
+	"classes:Place" -> "http://schema.org/Place" [ label = "rdfs:seeAlso" ];
+	"classes:Availability" -> "classes:Company" [ label = "properties:hasCompany" ];
+	"classes:District" -> "xsd:string" [ label = "properties:name_District" ];
+	"classes:Neighbourhood" -> "xsd:string" [ label = "properties:name_NB" ];
+	"classes:Availability" -> "xsd:string" [ label = "properties:name_Availability" ];
+	"classes:Place" -> "xsd:string" [ label = "properties:name_Place" ];
+	"classes:Place" -> "classes:Availability" [ label = "properties:hasAvailability" ];
+	"classes:Availability" -> "xsd:integer" [ label = "properties:quantity" ];
+	"classes:Company" -> "xsd:string" [ label = "properties:name_Company" ];
+
+}

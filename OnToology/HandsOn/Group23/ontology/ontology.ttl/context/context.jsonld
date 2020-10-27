@@ -1,0 +1,56 @@
+{
+  "@context" : {
+    "hasCode" : {
+      "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#hasCode",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Town" : {
+      "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#Town"
+    },
+    "hasName" : {
+      "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#hasName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Containers" : {
+      "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#Containers"
+    },
+    "numberOfContainers" : {
+      "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#numberOfContainers",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Glass" : {
+      "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#Glass"
+    },
+    "Population" : {
+      "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#Population"
+    },
+    "livingIn" : {
+      "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#livingIn",
+      "@type" : "@id"
+    },
+    "glassAtYear" : {
+      "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#glassAtYear",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "containersAtYear" : {
+      "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#containersAtYear",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "locatedIn" : {
+      "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#locatedIn",
+      "@type" : "@id"
+    },
+    "haspopulationAtYear" : {
+      "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#haspopulationAtYear",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "numberOfPeople" : {
+      "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#numberOfPeople",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "numberOfGlass" : {
+      "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#numberOfGlass",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

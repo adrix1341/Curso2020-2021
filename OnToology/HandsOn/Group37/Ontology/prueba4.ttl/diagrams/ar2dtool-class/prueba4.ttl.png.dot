@@ -1,0 +1,17 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "base:Localizacion" "base:Fuente" ; /*classes style*/
+	"base:Localizacion" -> "xsd:double" [ label = "base:coord_y" ];
+	"base:Localizacion" -> "xsd:string" [ label = "base:direccion" ];
+	"base:Localizacion" -> "xsd:double" [ label = "base:coord_x" ];
+	"base:Fuente" -> "xsd:boolean" [ label = "base:en_funcionamiento" ];
+	"base:Localizacion" -> "xsd:double" [ label = "base:longitud" ];
+	"base:Localizacion" -> "xsd:string" [ label = "base:via_publica" ];
+	"base:Localizacion" -> "base:Fuente" [ label = "base:tiene" ];
+	"base:Localizacion" -> "xsd:double" [ label = "base:latitud" ];
+	"owl:Thing" -> "xsd:string" [ label = "base:distrito" ];
+	"base:Fuente" -> "xsd:string" [ label = "base:codigo" ];
+	"base:Fuente" -> "base:Localizacion" [ label = "base:seEncuentraEn" ];
+
+}

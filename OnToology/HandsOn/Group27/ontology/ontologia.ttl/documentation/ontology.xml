@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://api.zonasverdesmadrid.es#"
+     xml:base="http://api.zonasverdesmadrid.es"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://api.zonasverdesmadrid.es"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://api.zonasverdesmadrid.es#hasHeightAverage -->
+
+
+    <owl:DatatypeProperty rdf:about="http://api.zonasverdesmadrid.es#hasHeightAverage">
+        <rdfs:domain rdf:resource="http://api.zonasverdesmadrid.es#District"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://api.zonasverdesmadrid.es#hasId -->
+
+
+    <owl:DatatypeProperty rdf:about="http://api.zonasverdesmadrid.es#hasId">
+        <rdfs:domain rdf:resource="http://api.zonasverdesmadrid.es#District"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://api.zonasverdesmadrid.es#hasJustPlanted -->
+
+
+    <owl:DatatypeProperty rdf:about="http://api.zonasverdesmadrid.es#hasJustPlanted">
+        <rdfs:domain rdf:resource="http://api.zonasverdesmadrid.es#District"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://api.zonasverdesmadrid.es#hasMature -->
+
+
+    <owl:DatatypeProperty rdf:about="http://api.zonasverdesmadrid.es#hasMature">
+        <rdfs:domain rdf:resource="http://api.zonasverdesmadrid.es#District"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://api.zonasverdesmadrid.es#hasName -->
+
+
+    <owl:DatatypeProperty rdf:about="http://api.zonasverdesmadrid.es#hasName">
+        <rdfs:domain rdf:resource="http://api.zonasverdesmadrid.es#District"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://api.zonasverdesmadrid.es#hasOld -->
+
+
+    <owl:DatatypeProperty rdf:about="http://api.zonasverdesmadrid.es#hasOld">
+        <rdfs:domain rdf:resource="http://api.zonasverdesmadrid.es#District"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://api.zonasverdesmadrid.es#hasOthers -->
+
+
+    <owl:DatatypeProperty rdf:about="http://api.zonasverdesmadrid.es#hasOthers">
+        <rdfs:domain rdf:resource="http://api.zonasverdesmadrid.es#District"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://api.zonasverdesmadrid.es#hasPerimeterAverage -->
+
+
+    <owl:DatatypeProperty rdf:about="http://api.zonasverdesmadrid.es#hasPerimeterAverage">
+        <rdfs:domain rdf:resource="http://api.zonasverdesmadrid.es#District"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://api.zonasverdesmadrid.es#hasSpecies -->
+
+
+    <owl:DatatypeProperty rdf:about="http://api.zonasverdesmadrid.es#hasSpecies">
+        <rdfs:domain rdf:resource="http://api.zonasverdesmadrid.es#District"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://api.zonasverdesmadrid.es#hasTotal -->
+
+
+    <owl:DatatypeProperty rdf:about="http://api.zonasverdesmadrid.es#hasTotal">
+        <rdfs:domain rdf:resource="http://api.zonasverdesmadrid.es#District"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://api.zonasverdesmadrid.es#hasUnits -->
+
+
+    <owl:DatatypeProperty rdf:about="http://api.zonasverdesmadrid.es#hasUnits">
+        <rdfs:domain rdf:resource="http://api.zonasverdesmadrid.es#District"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://api.zonasverdesmadrid.es#hasYoung -->
+
+
+    <owl:DatatypeProperty rdf:about="http://api.zonasverdesmadrid.es#hasYoung">
+        <rdfs:domain rdf:resource="http://api.zonasverdesmadrid.es#District"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://api.zonasverdesmadrid.es#District -->
+
+
+    <owl:Class rdf:about="http://api.zonasverdesmadrid.es#District"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+

@@ -1,0 +1,56 @@
+{
+  "@context" : {
+    "province" : {
+      "@id" : "http://dbpedia.org/ontology/province"
+    },
+    "lugarEstacion" : {
+      "@id" : "http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#lugarEstacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "tecnicaMedicion" : {
+      "@id" : "http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#tecnicaMedicion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Estacion" : {
+      "@id" : "http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#Estacion"
+    },
+    "compuesto" : {
+      "@id" : "http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#compuesto",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "contieneEstaciones" : {
+      "@id" : "http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#contieneEstaciones",
+      "@type" : "@id"
+    },
+    "valorMedido" : {
+      "@id" : "http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#valorMedido",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "formaParteDe" : {
+      "@id" : "http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#formaParteDe",
+      "@type" : "@id"
+    },
+    "valido" : {
+      "@id" : "http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#valido",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "Muestra" : {
+      "@id" : "http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#Muestra"
+    },
+    "Municipality" : {
+      "@id" : "http://dbpedia.org/ontology/Municipality"
+    },
+    "date" : {
+      "@id" : "http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#date",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "codigo" : {
+      "@id" : "http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#codigo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "tomaMuestras" : {
+      "@id" : "http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#tomaMuestras",
+      "@type" : "@id"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "@context" : {
+    "locatedDistrict" : {
+      "@id" : "http://contenedoresdemadrid.com/Properties#locatedDistrict",
+      "@type" : "@id"
+    },
+    "District" : {
+      "@id" : "http://contenedoresdemadrid.com/Classes#District"
+    },
+    "longitude" : {
+      "@id" : "http://contenedoresdemadrid.com/Properties#longitude",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "streetNum" : {
+      "@id" : "http://contenedoresdemadrid.com/Properties#streetNum",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "Street" : {
+      "@id" : "http://contenedoresdemadrid.com/Classes#Street"
+    },
+    "latitude" : {
+      "@id" : "http://contenedoresdemadrid.com/Properties#latitude",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "typeResidue" : {
+      "@id" : "http://contenedoresdemadrid.com/Properties#typeResidue",
+      "@type" : "@id"
+    },
+    "ReciclyngBin" : {
+      "@id" : "http://contenedoresdemadrid.com/Classes#ReciclyngBin"
+    },
+    "districtName" : {
+      "@id" : "http://contenedoresdemadrid.com/Properties#districtName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "type" : {
+      "@id" : "http://contenedoresdemadrid.com/Properties#type",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "coordinateX" : {
+      "@id" : "http://contenedoresdemadrid.com/Properties#coordinateX",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "coordinateY" : {
+      "@id" : "http://contenedoresdemadrid.com/Properties#coordinateY",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "TypeResidue" : {
+      "@id" : "http://contenedoresdemadrid.com/Classes#TypeResidue"
+    },
+    "streetName" : {
+      "@id" : "http://contenedoresdemadrid.com/Properties#streetName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "locatedStreet" : {
+      "@id" : "http://contenedoresdemadrid.com/Properties#locatedStreet",
+      "@type" : "@id"
+    }
+  }
+}

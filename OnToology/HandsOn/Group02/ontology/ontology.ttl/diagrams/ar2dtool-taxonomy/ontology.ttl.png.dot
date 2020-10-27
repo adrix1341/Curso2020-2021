@@ -1,0 +1,26 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "base:Telephone" "base:Schedule" "base:Province" "base:StreetType" "base:CoordX" "base:PostalCode" "base:Contact" "base:Neighborhood" "base:Name" "base:City" "base:District" "base:CoordY" "base:TotalSlots" "base:URLmoreinfo" "base:Address" "base:ResidentialSlots" "base:StreetName" "base:PublicSlots" "base:Coordinates" "base:Email" "base:Number" "base:Longitude" "base:Information" "base:Latitude" ; /*classes style*/
+	"base:Neighborhood" -> "base:District" [ label = "rdfs:subClassOf" ];
+	"base:Email" -> "base:Contact" [ label = "rdfs:subClassOf" ];
+	"base:District" -> "base:City" [ label = "rdfs:subClassOf" ];
+	"base:Telephone" -> "base:Contact" [ label = "rdfs:subClassOf" ];
+	"base:StreetName" -> "base:Neighborhood" [ label = "rdfs:subClassOf" ];
+	"base:Number" -> "base:StreetName" [ label = "rdfs:subClassOf" ];
+	"base:Name" -> "base:Information" [ label = "rdfs:subClassOf" ];
+	"base:PostalCode" -> "base:Neighborhood" [ label = "rdfs:subClassOf" ];
+	"base:Province" -> "base:Address" [ label = "rdfs:subClassOf" ];
+	"base:CoordY" -> "base:Coordinates" [ label = "rdfs:subClassOf" ];
+	"base:PublicSlots" -> "base:Information" [ label = "rdfs:subClassOf" ];
+	"base:StreetType" -> "base:Neighborhood" [ label = "rdfs:subClassOf" ];
+	"base:CoordX" -> "base:Coordinates" [ label = "rdfs:subClassOf" ];
+	"base:City" -> "base:Province" [ label = "rdfs:subClassOf" ];
+	"base:URLmoreinfo" -> "base:Information" [ label = "rdfs:subClassOf" ];
+	"base:ResidentialSlots" -> "base:Information" [ label = "rdfs:subClassOf" ];
+	"base:Longitude" -> "base:Coordinates" [ label = "rdfs:subClassOf" ];
+	"base:Schedule" -> "base:Information" [ label = "rdfs:subClassOf" ];
+	"base:Latitude" -> "base:Coordinates" [ label = "rdfs:subClassOf" ];
+	"base:TotalSlots" -> "base:Information" [ label = "rdfs:subClassOf" ];
+
+}

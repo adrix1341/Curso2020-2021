@@ -1,0 +1,105 @@
+@prefix : <http://contenedoresdemadrid.com/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://contenedoresdemadrid.com/> .
+
+<http://contenedoresdemadrid.com/> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://contenedoresdemadrid.com/Properties#locatedDistrict
+<http://contenedoresdemadrid.com/Properties#locatedDistrict> rdf:type owl:ObjectProperty ;
+                                                             rdfs:domain <http://contenedoresdemadrid.com/Classes#ReciclyngBin> ;
+                                                             rdfs:range <http://contenedoresdemadrid.com/Classes#District> .
+
+
+###  http://contenedoresdemadrid.com/Properties#locatedStreet
+<http://contenedoresdemadrid.com/Properties#locatedStreet> rdf:type owl:ObjectProperty ;
+                                                           rdfs:domain <http://contenedoresdemadrid.com/Classes#ReciclyngBin> ;
+                                                           rdfs:range <http://contenedoresdemadrid.com/Classes#Street> .
+
+
+###  http://contenedoresdemadrid.com/Properties#typeResidue
+<http://contenedoresdemadrid.com/Properties#typeResidue> rdf:type owl:ObjectProperty ;
+                                                         rdfs:domain <http://contenedoresdemadrid.com/Classes#ReciclyngBin> ;
+                                                         rdfs:range <http://contenedoresdemadrid.com/Classes#TypeResidue> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://contenedoresdemadrid.com/Properties#coordinateX
+<http://contenedoresdemadrid.com/Properties#coordinateX> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:domain <http://contenedoresdemadrid.com/Classes#ReciclyngBin> ;
+                                                         rdfs:range xsd:float .
+
+
+###  http://contenedoresdemadrid.com/Properties#coordinateY
+<http://contenedoresdemadrid.com/Properties#coordinateY> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:domain <http://contenedoresdemadrid.com/Classes#ReciclyngBin> ;
+                                                         rdfs:range xsd:float .
+
+
+###  http://contenedoresdemadrid.com/Properties#districtName
+<http://contenedoresdemadrid.com/Properties#districtName> rdf:type owl:DatatypeProperty ;
+                                                          rdfs:domain <http://contenedoresdemadrid.com/Classes#District> ;
+                                                          rdfs:range xsd:string .
+
+
+###  http://contenedoresdemadrid.com/Properties#latitude
+<http://contenedoresdemadrid.com/Properties#latitude> rdf:type owl:DatatypeProperty ;
+                                                      rdfs:domain <http://contenedoresdemadrid.com/Classes#ReciclyngBin> ;
+                                                      rdfs:range xsd:float .
+
+
+###  http://contenedoresdemadrid.com/Properties#longitude
+<http://contenedoresdemadrid.com/Properties#longitude> rdf:type owl:DatatypeProperty ;
+                                                       rdfs:domain <http://contenedoresdemadrid.com/Classes#ReciclyngBin> ;
+                                                       rdfs:range xsd:float .
+
+
+###  http://contenedoresdemadrid.com/Properties#streetName
+<http://contenedoresdemadrid.com/Properties#streetName> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:domain <http://contenedoresdemadrid.com/Classes#Street> ;
+                                                        rdfs:range xsd:string .
+
+
+###  http://contenedoresdemadrid.com/Properties#streetNum
+<http://contenedoresdemadrid.com/Properties#streetNum> rdf:type owl:DatatypeProperty ;
+                                                       rdfs:domain <http://contenedoresdemadrid.com/Classes#Street> ;
+                                                       rdfs:range xsd:int .
+
+
+###  http://contenedoresdemadrid.com/Properties#type
+<http://contenedoresdemadrid.com/Properties#type> rdf:type owl:DatatypeProperty ;
+                                                  rdfs:domain <http://contenedoresdemadrid.com/Classes#TypeResidue> ;
+                                                  rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://contenedoresdemadrid.com/Classes#District
+<http://contenedoresdemadrid.com/Classes#District> rdf:type owl:Class .
+
+
+###  http://contenedoresdemadrid.com/Classes#ReciclyngBin
+<http://contenedoresdemadrid.com/Classes#ReciclyngBin> rdf:type owl:Class .
+
+
+###  http://contenedoresdemadrid.com/Classes#Street
+<http://contenedoresdemadrid.com/Classes#Street> rdf:type owl:Class .
+
+
+###  http://contenedoresdemadrid.com/Classes#TypeResidue
+<http://contenedoresdemadrid.com/Classes#TypeResidue> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

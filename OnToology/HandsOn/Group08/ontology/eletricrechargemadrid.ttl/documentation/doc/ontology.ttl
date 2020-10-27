@@ -1,0 +1,97 @@
+@prefix : <https://www.eletricrechargemadrid.com/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://www.eletricrechargemadrid.com/> .
+
+<https://www.eletricrechargemadrid.com/> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.eletricrechargemadrid.com/properties#localizacion
+<http://www.eletricrechargemadrid.com/properties#localizacion> rdf:type owl:ObjectProperty ;
+                                                               rdfs:domain <https://www.eletricrechargemadrid.com/classes#Punto_recarga> ;
+                                                               rdfs:range <https://www.eletricrechargemadrid.com/classes#Ubicacion> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.eletricrechargemadrid.com/properties#codigo
+<http://www.eletricrechargemadrid.com/properties#codigo> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:domain <https://www.eletricrechargemadrid.com/classes#Punto_recarga> ;
+                                                         rdfs:range xsd:string .
+
+
+###  http://www.eletricrechargemadrid.com/properties#conectores
+<http://www.eletricrechargemadrid.com/properties#conectores> rdf:type owl:DatatypeProperty ;
+                                                             rdfs:domain <https://www.eletricrechargemadrid.com/classes#Punto_recarga> ;
+                                                             rdfs:range xsd:string .
+
+
+###  http://www.eletricrechargemadrid.com/properties#coordenada_x
+<http://www.eletricrechargemadrid.com/properties#coordenada_x> rdf:type owl:DatatypeProperty ;
+                                                               rdfs:domain <https://www.eletricrechargemadrid.com/classes#Ubicacion> ;
+                                                               rdfs:range xsd:float .
+
+
+###  http://www.eletricrechargemadrid.com/properties#coordenada_y
+<http://www.eletricrechargemadrid.com/properties#coordenada_y> rdf:type owl:DatatypeProperty ;
+                                                               rdfs:domain <https://www.eletricrechargemadrid.com/classes#Ubicacion> ;
+                                                               rdfs:range xsd:float .
+
+
+###  http://www.eletricrechargemadrid.com/properties#distrito
+<http://www.eletricrechargemadrid.com/properties#distrito> rdf:type owl:DatatypeProperty ;
+                                                           rdfs:domain <https://www.eletricrechargemadrid.com/classes#Punto_recarga> ;
+                                                           rdfs:range xsd:string .
+
+
+###  http://www.eletricrechargemadrid.com/properties#edificio
+<http://www.eletricrechargemadrid.com/properties#edificio> rdf:type owl:DatatypeProperty ;
+                                                           rdfs:domain <https://www.eletricrechargemadrid.com/classes#Punto_recarga> ;
+                                                           rdfs:range xsd:string .
+
+
+###  http://www.eletricrechargemadrid.com/properties#nombre_calle
+<http://www.eletricrechargemadrid.com/properties#nombre_calle> rdf:type owl:DatatypeProperty ;
+                                                               rdfs:domain <https://www.eletricrechargemadrid.com/classes#Ubicacion> ;
+                                                               rdfs:range xsd:string .
+
+
+###  http://www.eletricrechargemadrid.com/properties#numero_calle
+<http://www.eletricrechargemadrid.com/properties#numero_calle> rdf:type owl:DatatypeProperty ;
+                                                               rdfs:domain <https://www.eletricrechargemadrid.com/classes#Ubicacion> ;
+                                                               rdfs:range xsd:integer .
+
+
+###  http://www.eletricrechargemadrid.com/properties#potencia
+<http://www.eletricrechargemadrid.com/properties#potencia> rdf:type owl:DatatypeProperty ;
+                                                           rdfs:domain <https://www.eletricrechargemadrid.com/classes#Punto_recarga> ;
+                                                           rdfs:range xsd:integer .
+
+
+###  http://www.eletricrechargemadrid.com/properties#terminales
+<http://www.eletricrechargemadrid.com/properties#terminales> rdf:type owl:DatatypeProperty ;
+                                                             rdfs:domain <https://www.eletricrechargemadrid.com/classes#Punto_recarga> ;
+                                                             rdfs:range xsd:integer .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://www.eletricrechargemadrid.com/classes#Punto_recarga
+<https://www.eletricrechargemadrid.com/classes#Punto_recarga> rdf:type owl:Class .
+
+
+###  https://www.eletricrechargemadrid.com/classes#Ubicacion
+<https://www.eletricrechargemadrid.com/classes#Ubicacion> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

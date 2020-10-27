@@ -1,0 +1,22 @@
+{
+  "@context" : {
+    "artifactshasMeasurement" : {
+      "@id" : "http://assignment2.com/artifactshasMeasurement"
+    },
+    "artifactsatTime" : {
+      "@id" : "http://assignment2.com/artifactsatTime"
+    },
+    "artifactshasTemperature" : {
+      "@id" : "http://assignment2.com/artifactshasTemperature"
+    },
+    "artifactsincludes" : {
+      "@id" : "http://assignment2.com/artifactsincludes"
+    },
+    "artifactshasOwner" : {
+      "@id" : "http://assignment2.com/artifactshasOwner"
+    },
+    "artifactshasName" : {
+      "@id" : "http://assignment2.com/artifactshasName"
+    }
+  }
+}

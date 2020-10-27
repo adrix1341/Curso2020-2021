@@ -1,0 +1,13 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "base:hasSchedule" "base:hasLocation" "base:Schedule" "base:MobileRecyclePoint" "base:Location" ; /*classes style*/
+	"http://group11.com/ontology#" -> "owl:Ontology" [ label = "rdfs:type" ];
+	"base:Location" -> "xsd:string" [ label = "base:isInDistrict" ];
+	"base:Location" -> "xsd:double" [ label = "base:hasLatitude" ];
+	"base:Schedule" -> "xsd:string" [ label = "base:isOpen" ];
+	"base:MobileRecyclePoint" -> "base:Location" [ label = "base:hasLocation" ];
+	"base:MobileRecyclePoint" -> "base:Schedule" [ label = "base:hasSchedule" ];
+	"base:Location" -> "xsd:double" [ label = "base:hasLongitude" ];
+
+}

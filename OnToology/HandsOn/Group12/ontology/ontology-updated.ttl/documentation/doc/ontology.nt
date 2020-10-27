@@ -1,0 +1,88 @@
+<http://scooters.com/Group12/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://scooters.com/Group12/Properties#hasAvailability
+<http://scooters.com/Group12/Properties#hasAvailability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://scooters.com/Group12/Properties#hasAvailability> <http://www.w3.org/2000/01/rdf-schema#domain> <http://scooters.com/Group12/Classes#Place> .
+<http://scooters.com/Group12/Properties#hasAvailability> <http://www.w3.org/2000/01/rdf-schema#range> <http://scooters.com/Group12/Classes#Availability> .
+# 
+# http://scooters.com/Group12/Properties#hasCompany
+<http://scooters.com/Group12/Properties#hasCompany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://scooters.com/Group12/Properties#hasCompany> <http://www.w3.org/2000/01/rdf-schema#domain> <http://scooters.com/Group12/Classes#Availability> .
+<http://scooters.com/Group12/Properties#hasCompany> <http://www.w3.org/2000/01/rdf-schema#range> <http://scooters.com/Group12/Classes#Company> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://scooters.com/Group12/Properties#name_Availability
+<http://scooters.com/Group12/Properties#name_Availability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://scooters.com/Group12/Properties#name_Availability> <http://www.w3.org/2000/01/rdf-schema#domain> <http://scooters.com/Group12/Classes#Availability> .
+<http://scooters.com/Group12/Properties#name_Availability> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://scooters.com/Group12/Properties#name_Company
+<http://scooters.com/Group12/Properties#name_Company> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://scooters.com/Group12/Properties#name_Company> <http://www.w3.org/2000/01/rdf-schema#domain> <http://scooters.com/Group12/Classes#Company> .
+<http://scooters.com/Group12/Properties#name_Company> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://scooters.com/Group12/Properties#name_District
+<http://scooters.com/Group12/Properties#name_District> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://scooters.com/Group12/Properties#name_District> <http://www.w3.org/2000/01/rdf-schema#domain> <http://scooters.com/Group12/Classes#District> .
+<http://scooters.com/Group12/Properties#name_District> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://scooters.com/Group12/Properties#name_NB
+<http://scooters.com/Group12/Properties#name_NB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://scooters.com/Group12/Properties#name_NB> <http://www.w3.org/2000/01/rdf-schema#domain> <http://scooters.com/Group12/Classes#Neighbourhood> .
+<http://scooters.com/Group12/Properties#name_NB> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://scooters.com/Group12/Properties#name_Place
+<http://scooters.com/Group12/Properties#name_Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://scooters.com/Group12/Properties#name_Place> <http://www.w3.org/2000/01/rdf-schema#domain> <http://scooters.com/Group12/Classes#Place> .
+<http://scooters.com/Group12/Properties#name_Place> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://scooters.com/Group12/Properties#quantity
+<http://scooters.com/Group12/Properties#quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://scooters.com/Group12/Properties#quantity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://scooters.com/Group12/Classes#Availability> .
+<http://scooters.com/Group12/Properties#quantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://scooters.com/Group12/Classes#Availability
+<http://scooters.com/Group12/Classes#Availability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://scooters.com/Group12/Classes#Company
+<http://scooters.com/Group12/Classes#Company> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://scooters.com/Group12/Classes#Company> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/ontology/Company> .
+# 
+# http://scooters.com/Group12/Classes#District
+<http://scooters.com/Group12/Classes#District> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://scooters.com/Group12/Classes#District> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://scooters.com/Group12/Classes#Place> .
+# 
+# http://scooters.com/Group12/Classes#Neighbourhood
+<http://scooters.com/Group12/Classes#Neighbourhood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://scooters.com/Group12/Classes#Neighbourhood> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://scooters.com/Group12/Classes#Place> .
+# 
+# http://scooters.com/Group12/Classes#Place
+<http://scooters.com/Group12/Classes#Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://scooters.com/Group12/Classes#Place> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://schema.org/Place> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

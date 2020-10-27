@@ -1,0 +1,24 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "base:Time" "base:StreetCrossing" "base:District" "base:Accident" "dbo:Person" ; /*classes style*/
+	"base:StreetCrossing" -> "base:District" [ label = "base:locatedIn" ];
+	"base:Time" -> "xsd:string" [ label = "base:hourInterval" ];
+	"base:Accident" -> "base:Time" [ label = "base:occursAt" ];
+	"base:Accident" -> "xsd:string" [ label = "base:weather" ];
+	"dbo:Person" -> "xsd:integer" [ label = "base:injuryStatus" ];
+	"base:Accident" -> "dbo:Person" [ label = "base:occursTo" ];
+	"base:Time" -> "xsd:dateTime" [ label = "base:date" ];
+	"dbo:Person" -> "xsd:string" [ label = "dbo:sex" ];
+	"base:StreetCrossing" -> "xsd:string" [ label = "base:hasNumber" ];
+	"base:Accident" -> "base:StreetCrossing" [ label = "base:occursOn" ];
+	"dbo:Person" -> "xsd:string" [ label = "base:typeOfVehicle" ];
+	"base:StreetCrossing" -> "xsd:string" [ label = "base:hasStreet1" ];
+	"base:District" -> "xsd:string" [ label = "base:districtName" ];
+	"base:StreetCrossing" -> "xsd:string" [ label = "base:hasStreet2" ];
+	"dbo:Person" -> "xsd:string" [ label = "base:typeOfPerson" ];
+	"dbo:Person" -> "xsd:string" [ label = "base:ageRange" ];
+	"base:Accident" -> "xsd:string" [ label = "base:hasExpedient" ];
+	"base:Accident" -> "xsd:string" [ label = "base:typeOfAccident" ];
+
+}

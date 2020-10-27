@@ -1,0 +1,17 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "base:EstacionBicicleta" "base:Distrito" "base:Coordenadas" "base:Calle" "base:Barrio" ; /*classes style*/
+	"base:Barrio" -> "xsd:string" [ label = "base:nombreBarrio" ];
+	"base:EstacionBicicleta" -> "xsd:string" [ label = "base:numeroEstacion" ];
+	"base:Coordenadas" -> "xsd:string" [ label = "base:latitud" ];
+	"base:EstacionBicicleta" -> "base:Calle" [ label = "base:tieneCalle" ];
+	"base:EstacionBicicleta" -> "base:Distrito" [ label = "base:tieneDistrito" ];
+	"base:Coordenadas" -> "xsd:string" [ label = "base:longitud" ];
+	"base:Distrito" -> "xsd:string" [ label = "base:nombreDistrito" ];
+	"base:EstacionBicicleta" -> "base:Coordenadas" [ label = "base:tieneCoordenadas" ];
+	"base:EstacionBicicleta" -> "xsd:integer" [ label = "base:puestos" ];
+	"base:EstacionBicicleta" -> "base:Barrio" [ label = "base:tieneBarrio" ];
+	"base:Calle" -> "xsd:string" [ label = "base:nombreCalle" ];
+
+}

@@ -1,0 +1,94 @@
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#contieneEstaciones
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#contieneEstaciones> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#contieneEstaciones> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/Municipality> .
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#contieneEstaciones> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#Estacion> .
+# 
+# http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#formaParteDe
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#formaParteDe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#formaParteDe> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/Municipality> .
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#formaParteDe> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/province> .
+# 
+# http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#tomaMuestras
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#tomaMuestras> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#tomaMuestras> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#Estacion> .
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#tomaMuestras> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#Muestra> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#codigo
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#codigo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#codigo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/Municipality> .
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#codigo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/province> .
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#codigo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#Estacion> .
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#codigo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#Muestra> .
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#codigo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#compuesto
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#compuesto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#compuesto> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#Muestra> .
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#compuesto> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#date
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#date> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#Muestra> .
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#lugarEstacion
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#lugarEstacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#lugarEstacion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#Estacion> .
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#lugarEstacion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#tecnicaMedicion
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#tecnicaMedicion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#tecnicaMedicion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#Muestra> .
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#tecnicaMedicion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#valido
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#valido> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#valido> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#Muestra> .
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#valido> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#valorMedido
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#valorMedido> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#valorMedido> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#Muestra> .
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#valorMedido> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://dbpedia.org/ontology/Municipality
+<http://dbpedia.org/ontology/Municipality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://dbpedia.org/ontology/province
+<http://dbpedia.org/ontology/province> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#Estacion
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#Estacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#Muestra
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#Muestra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
