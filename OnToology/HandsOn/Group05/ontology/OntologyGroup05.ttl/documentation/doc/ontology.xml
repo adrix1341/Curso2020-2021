@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://semantic.web.es/group05/ontology/BiciMAD/"
+     xml:base="http://semantic.web.es/group05/ontology/BiciMAD/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://semantic.web.es/group05/ontology/BiciMAD/"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://semantic.web.es/group05/ontology/BiciMAD/tieneBarrio -->
+
+
+    <owl:ObjectProperty rdf:about="http://semantic.web.es/group05/ontology/BiciMAD/tieneBarrio">
+        <rdfs:domain rdf:resource="http://semantic.web.es/group05/ontology/BiciMAD/EstacionBicicleta"/>
+        <rdfs:range rdf:resource="http://semantic.web.es/group05/ontology/BiciMAD/Barrio"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://semantic.web.es/group05/ontology/BiciMAD/tieneCalle -->
+
+
+    <owl:ObjectProperty rdf:about="http://semantic.web.es/group05/ontology/BiciMAD/tieneCalle">
+        <rdfs:domain rdf:resource="http://semantic.web.es/group05/ontology/BiciMAD/EstacionBicicleta"/>
+        <rdfs:range rdf:resource="http://semantic.web.es/group05/ontology/BiciMAD/Calle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://semantic.web.es/group05/ontology/BiciMAD/tieneCoordenadas -->
+
+
+    <owl:ObjectProperty rdf:about="http://semantic.web.es/group05/ontology/BiciMAD/tieneCoordenadas">
+        <rdfs:domain rdf:resource="http://semantic.web.es/group05/ontology/BiciMAD/EstacionBicicleta"/>
+        <rdfs:range rdf:resource="http://semantic.web.es/group05/ontology/BiciMAD/Coordenadas"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://semantic.web.es/group05/ontology/BiciMAD/tieneDistrito -->
+
+
+    <owl:ObjectProperty rdf:about="http://semantic.web.es/group05/ontology/BiciMAD/tieneDistrito">
+        <rdfs:domain rdf:resource="http://semantic.web.es/group05/ontology/BiciMAD/EstacionBicicleta"/>
+        <rdfs:range rdf:resource="http://semantic.web.es/group05/ontology/BiciMAD/Distrito"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://semantic.web.es/group05/ontology/BiciMAD/latitud -->
+
+
+    <owl:DatatypeProperty rdf:about="http://semantic.web.es/group05/ontology/BiciMAD/latitud">
+        <rdfs:domain rdf:resource="http://semantic.web.es/group05/ontology/BiciMAD/Coordenadas"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://semantic.web.es/group05/ontology/BiciMAD/longitud -->
+
+
+    <owl:DatatypeProperty rdf:about="http://semantic.web.es/group05/ontology/BiciMAD/longitud">
+        <rdfs:domain rdf:resource="http://semantic.web.es/group05/ontology/BiciMAD/Coordenadas"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://semantic.web.es/group05/ontology/BiciMAD/nombreBarrio -->
+
+
+    <owl:DatatypeProperty rdf:about="http://semantic.web.es/group05/ontology/BiciMAD/nombreBarrio">
+        <rdfs:domain rdf:resource="http://semantic.web.es/group05/ontology/BiciMAD/Barrio"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://semantic.web.es/group05/ontology/BiciMAD/nombreCalle -->
+
+
+    <owl:DatatypeProperty rdf:about="http://semantic.web.es/group05/ontology/BiciMAD/nombreCalle">
+        <rdfs:domain rdf:resource="http://semantic.web.es/group05/ontology/BiciMAD/Calle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://semantic.web.es/group05/ontology/BiciMAD/nombreDistrito -->
+
+
+    <owl:DatatypeProperty rdf:about="http://semantic.web.es/group05/ontology/BiciMAD/nombreDistrito">
+        <rdfs:domain rdf:resource="http://semantic.web.es/group05/ontology/BiciMAD/Distrito"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://semantic.web.es/group05/ontology/BiciMAD/numeroEstacion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://semantic.web.es/group05/ontology/BiciMAD/numeroEstacion">
+        <rdfs:domain rdf:resource="http://semantic.web.es/group05/ontology/BiciMAD/EstacionBicicleta"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://semantic.web.es/group05/ontology/BiciMAD/puestos -->
+
+
+    <owl:DatatypeProperty rdf:about="http://semantic.web.es/group05/ontology/BiciMAD/puestos">
+        <rdfs:domain rdf:resource="http://semantic.web.es/group05/ontology/BiciMAD/EstacionBicicleta"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://semantic.web.es/group05/ontology/BiciMAD/Barrio -->
+
+
+    <owl:Class rdf:about="http://semantic.web.es/group05/ontology/BiciMAD/Barrio"/>
+    
+
+
+    <!-- http://semantic.web.es/group05/ontology/BiciMAD/Calle -->
+
+
+    <owl:Class rdf:about="http://semantic.web.es/group05/ontology/BiciMAD/Calle"/>
+    
+
+
+    <!-- http://semantic.web.es/group05/ontology/BiciMAD/Coordenadas -->
+
+
+    <owl:Class rdf:about="http://semantic.web.es/group05/ontology/BiciMAD/Coordenadas"/>
+    
+
+
+    <!-- http://semantic.web.es/group05/ontology/BiciMAD/Distrito -->
+
+
+    <owl:Class rdf:about="http://semantic.web.es/group05/ontology/BiciMAD/Distrito"/>
+    
+
+
+    <!-- http://semantic.web.es/group05/ontology/BiciMAD/EstacionBicicleta -->
+
+
+    <owl:Class rdf:about="http://semantic.web.es/group05/ontology/BiciMAD/EstacionBicicleta"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+

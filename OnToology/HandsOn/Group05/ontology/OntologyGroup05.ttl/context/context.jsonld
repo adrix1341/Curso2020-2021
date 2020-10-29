@@ -1,0 +1,63 @@
+{
+  "@context" : {
+    "Calle" : {
+      "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/Calle"
+    },
+    "nombreBarrio" : {
+      "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/nombreBarrio",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "tieneBarrio" : {
+      "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/tieneBarrio",
+      "@type" : "@id"
+    },
+    "longitud" : {
+      "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/longitud",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "puestos" : {
+      "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/puestos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Coordenadas" : {
+      "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/Coordenadas"
+    },
+    "numeroEstacion" : {
+      "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/numeroEstacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "tieneCalle" : {
+      "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/tieneCalle",
+      "@type" : "@id"
+    },
+    "Distrito" : {
+      "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/Distrito"
+    },
+    "latitud" : {
+      "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/latitud",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "nombreDistrito" : {
+      "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/nombreDistrito",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "nombreCalle" : {
+      "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/nombreCalle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "EstacionBicicleta" : {
+      "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/EstacionBicicleta"
+    },
+    "tieneDistrito" : {
+      "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/tieneDistrito",
+      "@type" : "@id"
+    },
+    "Barrio" : {
+      "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/Barrio"
+    },
+    "tieneCoordenadas" : {
+      "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/tieneCoordenadas",
+      "@type" : "@id"
+    }
+  }
+}

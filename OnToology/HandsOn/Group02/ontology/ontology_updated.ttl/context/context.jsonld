@@ -1,0 +1,98 @@
+{
+  "@context" : {
+    "Address" : {
+      "@id" : "http://findyourparking.es/lcc/ontology/Parking#Address"
+    },
+    "hasEmail" : {
+      "@id" : "http://findyourparking.es/lcc/ontology/Parking#hasEmail",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasDistrict" : {
+      "@id" : "http://findyourparking.es/lcc/ontology/Parking#hasDistrict",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasCoordY" : {
+      "@id" : "http://findyourparking.es/lcc/ontology/Parking#hasCoordY",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "hasCoordX" : {
+      "@id" : "http://findyourparking.es/lcc/ontology/Parking#hasCoordX",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "hasName" : {
+      "@id" : "http://findyourparking.es/lcc/ontology/Parking#hasName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasPublicSlots" : {
+      "@id" : "http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots",
+      "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+    },
+    "hasStreet" : {
+      "@id" : "http://findyourparking.es/lcc/ontology/Parking#hasStreet",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAddress" : {
+      "@id" : "http://findyourparking.es/lcc/ontology/Parking#hasAddress",
+      "@type" : "@id"
+    },
+    "hasTelephone" : {
+      "@id" : "http://findyourparking.es/lcc/ontology/Parking#hasTelephone",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasNumber" : {
+      "@id" : "http://findyourparking.es/lcc/ontology/Parking#hasNumber",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasLatitude" : {
+      "@id" : "http://findyourparking.es/lcc/ontology/Parking#hasLatitude",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "hasProvince" : {
+      "@id" : "http://findyourparking.es/lcc/ontology/Parking#hasProvince",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasId" : {
+      "@id" : "http://findyourparking.es/lcc/ontology/Parking#hasId",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasLongitude" : {
+      "@id" : "http://findyourparking.es/lcc/ontology/Parking#hasLongitude",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "Parking" : {
+      "@id" : "http://findyourparking.es/lcc/ontology/Parking#Parking"
+    },
+    "hasURLMoreInfo" : {
+      "@id" : "http://findyourparking.es/lcc/ontology/Parking#hasURLMoreInfo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "hasCity" : {
+      "@id" : "http://findyourparking.es/lcc/ontology/Parking#hasCity",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAddressId" : {
+      "@id" : "http://findyourparking.es/lcc/ontology/Parking#hasAddressId",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasPostalCode" : {
+      "@id" : "http://findyourparking.es/lcc/ontology/Parking#hasPostalCode",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasSchedule" : {
+      "@id" : "http://findyourparking.es/lcc/ontology/Parking#hasSchedule",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasNeighborhood" : {
+      "@id" : "http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasResidentialSlots" : {
+      "@id" : "http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots",
+      "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+    },
+    "hasTotalSlots" : {
+      "@id" : "http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots",
+      "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+    }
+  }
+}

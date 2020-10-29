@@ -1,0 +1,118 @@
+[ {
+  "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/Barrio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/Calle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/Coordenadas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/Distrito",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/EstacionBicicleta",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/latitud",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/Coordenadas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/longitud",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/Coordenadas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/nombreBarrio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/Barrio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/nombreCalle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/Calle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/nombreDistrito",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/Distrito"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/numeroEstacion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/EstacionBicicleta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/puestos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/EstacionBicicleta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/tieneBarrio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/EstacionBicicleta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/Barrio"
+  } ]
+}, {
+  "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/tieneCalle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/EstacionBicicleta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/Calle"
+  } ]
+}, {
+  "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/tieneCoordenadas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/EstacionBicicleta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/Coordenadas"
+  } ]
+}, {
+  "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/tieneDistrito",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/EstacionBicicleta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://semantic.web.es/group05/ontology/BiciMAD/Distrito"
+  } ]
+} ]

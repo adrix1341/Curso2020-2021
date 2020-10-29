@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/activitiesMadrid/"
+     xml:base="http://www.semanticweb.org/activitiesMadrid/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/activitiesMadrid/"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/activitiesMadrid/properties#ubicado_en -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/activitiesMadrid/properties#ubicado_en">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/activitiesMadrid/classes#Actividad"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/activitiesMadrid/classes#Ubicación"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/activitiesMadrid/properties#descripcion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/activitiesMadrid/properties#descripcion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/activitiesMadrid/classes#Actividad"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/activitiesMadrid/properties#direccion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/activitiesMadrid/properties#direccion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/activitiesMadrid/classes#Ubicación"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/activitiesMadrid/properties#fecha -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/activitiesMadrid/properties#fecha">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/activitiesMadrid/classes#Actividad"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/activitiesMadrid/properties#id_actividad -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/activitiesMadrid/properties#id_actividad">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/activitiesMadrid/classes#Actividad"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/activitiesMadrid/properties#latitud -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/activitiesMadrid/properties#latitud">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/activitiesMadrid/classes#Ubicación"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/activitiesMadrid/properties#longitud -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/activitiesMadrid/properties#longitud">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/activitiesMadrid/classes#Ubicación"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/activitiesMadrid/properties#nombre_actividad -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/activitiesMadrid/properties#nombre_actividad">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/activitiesMadrid/classes#Actividad"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/activitiesMadrid/properties#precio -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/activitiesMadrid/properties#precio">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/activitiesMadrid/classes#Actividad"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/activitiesMadrid/properties#tipo -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/activitiesMadrid/properties#tipo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/activitiesMadrid/classes#Actividad"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/activitiesMadrid/classes#Actividad -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/activitiesMadrid/classes#Actividad"/>
+    
+
+
+    <!-- http://www.semanticweb.org/activitiesMadrid/classes#Ubicación -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/activitiesMadrid/classes#Ubicación"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+

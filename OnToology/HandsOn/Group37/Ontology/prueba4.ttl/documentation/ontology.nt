@@ -1,0 +1,90 @@
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#seEncuentraEn
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#seEncuentraEn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#seEncuentraEn> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#tiene> .
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#seEncuentraEn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#Fuente> .
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#seEncuentraEn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#Localizacion> .
+# 
+# http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#tiene
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#tiene> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#tiene> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#Localizacion> .
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#tiene> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#Fuente> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#codigo
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#codigo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#codigo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#Fuente> .
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#codigo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#coord_x
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#coord_x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#coord_x> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#Localizacion> .
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#coord_x> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+# 
+# http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#coord_y
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#coord_y> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#coord_y> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#Localizacion> .
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#coord_y> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+# 
+# http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#direccion
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#direccion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#direccion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#Localizacion> .
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#direccion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#distrito
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#distrito> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#distrito> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#en_funcionamiento
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#en_funcionamiento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#en_funcionamiento> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#Fuente> .
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#en_funcionamiento> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#latitud
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#latitud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#latitud> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#Localizacion> .
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#latitud> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+# 
+# http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#longitud
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#longitud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#longitud> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#Localizacion> .
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#longitud> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+# 
+# http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#via_publica
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#via_publica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#via_publica> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#Localizacion> .
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#via_publica> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#Fuente
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#Fuente> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#Localizacion
+<http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#Localizacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

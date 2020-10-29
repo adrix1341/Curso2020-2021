@@ -1,0 +1,108 @@
+[ {
+  "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#Containers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#Glass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#Population",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#Town",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#containersAtYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#Containers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#glassAtYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#Glass"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#hasCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#Town"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#hasName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#Town"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#haspopulationAtYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#Population"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#livingIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#Town"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#Population"
+  } ]
+}, {
+  "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#locatedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#Town"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#Containers"
+  }, {
+    "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#Glass"
+  } ]
+}, {
+  "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#numberOfContainers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#Containers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#numberOfGlass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#Glass"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#numberOfPeople",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://http://www.semanticweb.org/group23/ontologies/collected-glass#Population"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+} ]

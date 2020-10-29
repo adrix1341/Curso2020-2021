@@ -1,0 +1,16 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "classes:Ubicaci?n" "classes:Actividad" ; /*classes style*/
+	"classes:Actividad" -> "xsd:string" [ label = "properties:tipo" ];
+	"classes:Actividad" -> "xsd:string" [ label = "properties:nombre_actividad" ];
+	"classes:Actividad" -> "xsd:string" [ label = "properties:descripcion" ];
+	"classes:Actividad" -> "classes:Ubicaci?n" [ label = "properties:ubicado_en" ];
+	"classes:Ubicaci?n" -> "xsd:float" [ label = "properties:longitud" ];
+	"classes:Actividad" -> "xsd:integer" [ label = "properties:precio" ];
+	"classes:Ubicaci?n" -> "xsd:float" [ label = "properties:latitud" ];
+	"classes:Actividad" -> "xsd:date" [ label = "properties:fecha" ];
+	"classes:Actividad" -> "xsd:integer" [ label = "properties:id_actividad" ];
+	"classes:Ubicaci?n" -> "xsd:float" [ label = "properties:direccion" ];
+
+}

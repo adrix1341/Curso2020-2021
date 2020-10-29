@@ -1,0 +1,17 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "class:ReciclyngBin" "class:TypeResidue" "class:District" "class:Street" ; /*classes style*/
+	"class:District" -> "xsd:string" [ label = "prop:districtName" ];
+	"class:Street" -> "xsd:int" [ label = "prop:streetNum" ];
+	"class:Street" -> "xsd:string" [ label = "prop:streetName" ];
+	"class:TypeResidue" -> "xsd:string" [ label = "prop:type" ];
+	"class:ReciclyngBin" -> "xsd:float" [ label = "prop:longitude" ];
+	"class:ReciclyngBin" -> "class:TypeResidue" [ label = "prop:typeResidue" ];
+	"class:ReciclyngBin" -> "xsd:float" [ label = "prop:latitude" ];
+	"class:ReciclyngBin" -> "xsd:float" [ label = "prop:coordinateY" ];
+	"class:ReciclyngBin" -> "class:Street" [ label = "prop:locatedStreet" ];
+	"class:ReciclyngBin" -> "class:District" [ label = "prop:locatedDistrict" ];
+	"class:ReciclyngBin" -> "xsd:float" [ label = "prop:coordinateX" ];
+
+}

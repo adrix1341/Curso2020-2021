@@ -1,0 +1,16 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "base:Muestra" "base:Estacion" "http://dbpedia.org/ontology/province" "http://dbpedia.org/ontology/Municipality" ; /*classes style*/
+	"base:Muestra" -> "xsd:integer" [ label = "base:valorMedido" ];
+	"http://dbpedia.org/ontology/Municipality" -> "xsd:int" [ label = "base:codigo" ];
+	"base:Muestra" -> "xsd:string" [ label = "base:compuesto" ];
+	"http://dbpedia.org/ontology/Municipality" -> "base:Estacion" [ label = "base:contieneEstaciones" ];
+	"base:Muestra" -> "xsd:string" [ label = "base:tecnicaMedicion" ];
+	"http://dbpedia.org/ontology/Municipality" -> "http://dbpedia.org/ontology/province" [ label = "base:formaParteDe" ];
+	"base:Muestra" -> "xsd:boolean" [ label = "base:valido" ];
+	"base:Estacion" -> "xsd:string" [ label = "base:lugarEstacion" ];
+	"base:Estacion" -> "base:Muestra" [ label = "base:tomaMuestras" ];
+	"base:Muestra" -> "xsd:dateTime" [ label = "base:date" ];
+
+}

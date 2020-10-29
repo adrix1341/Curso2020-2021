@@ -1,0 +1,11 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "base:Station" "base:Measurement" ; /*classes style*/
+	"base:Measurement" -> "xsd:integer" [ label = "base:measureType" ];
+	"base:Station" -> "xsd:string" [ label = "base:stationCode" ];
+	"base:Measurement" -> "xsd:dateTime" [ label = "base:dateOfMeasure" ];
+	"base:Measurement" -> "xsd:float" [ label = "base:measureValue" ];
+	"base:Measurement" -> "base:Station" [ label = "base:measuredAt" ];
+
+}

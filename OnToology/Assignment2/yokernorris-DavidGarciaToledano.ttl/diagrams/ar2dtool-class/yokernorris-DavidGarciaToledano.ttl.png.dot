@@ -1,0 +1,9 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+	":artifactsSensor029" -> ":artifactsMeasurement8401" [ label = ":artifactshasMeasurement" ];
+	":artifactsClass01" -> ":artifactsComputer101" [ label = ":artifactsincludes" ];
+	":artifactsClass01" -> ":artifactsSensor029" [ label = ":artifactsincludes" ];
+	":artifactsComputer101" -> ":artifactsUser10A" [ label = ":artifactshasOwner" ];
+
+}

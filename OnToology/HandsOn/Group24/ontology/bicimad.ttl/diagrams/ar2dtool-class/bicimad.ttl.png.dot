@@ -1,0 +1,21 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "classes:Neighbourhood" "classes:District" "classes:Street" "classes:Bike_Station" ; /*classes style*/
+	"classes:Bike_Station" -> "xsd:float" [ label = "properties:position_x" ];
+	"classes:Bike_Station" -> "xsd:float" [ label = "properties:position_y" ];
+	"classes:Neighbourhood" -> "xsd:integer" [ label = "properties:neighbourhood_number" ];
+	"classes:District" -> "xsd:integer" [ label = "properties:district_number" ];
+	"classes:Bike_Station" -> "classes:Street" [ label = "properties:has_street" ];
+	"classes:Neighbourhood" -> "classes:District" [ label = "properties:has_district" ];
+	"classes:Bike_Station" -> "xsd:float" [ label = "properties:longitude" ];
+	"classes:District" -> "xsd:string" [ label = "properties:district_name" ];
+	"classes:Bike_Station" -> "xsd:integer" [ label = "properties:spots" ];
+	"classes:Street" -> "xsd:string" [ label = "properties:street_name" ];
+	"classes:Street" -> "xsd:integer" [ label = "properties:street_number" ];
+	"classes:Bike_Station" -> "xsd:float" [ label = "properties:latitude" ];
+	"classes:Bike_Station" -> "xsd:date" [ label = "properties:registration_Date" ];
+	"classes:Neighbourhood" -> "xsd:string" [ label = "properties:neighbourhood_name" ];
+	"classes:Street" -> "classes:Neighbourhood" [ label = "properties:has_neighourhood" ];
+
+}

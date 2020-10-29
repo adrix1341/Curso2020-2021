@@ -1,0 +1,94 @@
+{
+  "@context" : {
+    "hasStreet1" : {
+      "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#hasStreet1",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ageRange" : {
+      "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#ageRange",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "typeOfAccident" : {
+      "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#typeOfAccident",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "occursAt" : {
+      "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#occursAt",
+      "@type" : "@id"
+    },
+    "hasExpedient" : {
+      "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#hasExpedient",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "typeOfVehicle" : {
+      "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#typeOfVehicle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "District" : {
+      "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#District"
+    },
+    "injuryStatus" : {
+      "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#injuryStatus",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "hourInterval" : {
+      "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#hourInterval",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasNumber" : {
+      "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#hasNumber",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "occursTo" : {
+      "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#occursTo",
+      "@type" : "@id"
+    },
+    "Accident" : {
+      "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#Accident"
+    },
+    "typeOfPerson" : {
+      "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#typeOfPerson",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Person" : {
+      "@id" : "http://dbpedia.org/ontology/Person"
+    },
+    "occursOn" : {
+      "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#occursOn",
+      "@type" : "@id"
+    },
+    "districtName" : {
+      "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#districtName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "locatedIn" : {
+      "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#locatedIn",
+      "@type" : "@id"
+    },
+    "hasStreet2" : {
+      "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#hasStreet2",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "date" : {
+      "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#date",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "sex" : {
+      "@id" : "http://dbpedia.org/ontology/sex",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "weather" : {
+      "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#weather",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "StreetCrossing" : {
+      "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing"
+    },
+    "Time" : {
+      "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#Time"
+    }
+  }
+}

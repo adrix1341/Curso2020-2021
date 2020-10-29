@@ -1,0 +1,128 @@
+<http://www.semanticweb.org/bicimad/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#date
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/bicimad/properties#has_district
+<http://www.semanticweb.org/bicimad/properties#has_district> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/bicimad/properties#has_district> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/bicimad/classes#Neighbourhood> .
+<http://www.semanticweb.org/bicimad/properties#has_district> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/bicimad/classes#District> .
+# 
+# http://www.semanticweb.org/bicimad/properties#has_neighourhood
+<http://www.semanticweb.org/bicimad/properties#has_neighourhood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/bicimad/properties#has_neighourhood> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/bicimad/classes#Street> .
+<http://www.semanticweb.org/bicimad/properties#has_neighourhood> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/bicimad/classes#Neighbourhood> .
+# 
+# http://www.semanticweb.org/bicimad/properties#has_street
+<http://www.semanticweb.org/bicimad/properties#has_street> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/bicimad/properties#has_street> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/bicimad/classes#Bike_Station> .
+<http://www.semanticweb.org/bicimad/properties#has_street> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/bicimad/classes#Street> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/bicimad/properties#district_name
+<http://www.semanticweb.org/bicimad/properties#district_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/bicimad/properties#district_name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/bicimad/classes#District> .
+<http://www.semanticweb.org/bicimad/properties#district_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/bicimad/properties#district_number
+<http://www.semanticweb.org/bicimad/properties#district_number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/bicimad/properties#district_number> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/bicimad/classes#District> .
+<http://www.semanticweb.org/bicimad/properties#district_number> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/bicimad/properties#latitude
+<http://www.semanticweb.org/bicimad/properties#latitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/bicimad/properties#latitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/bicimad/classes#Bike_Station> .
+<http://www.semanticweb.org/bicimad/properties#latitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.semanticweb.org/bicimad/properties#longitude
+<http://www.semanticweb.org/bicimad/properties#longitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/bicimad/properties#longitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/bicimad/classes#Bike_Station> .
+<http://www.semanticweb.org/bicimad/properties#longitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.semanticweb.org/bicimad/properties#neighbourhood_name
+<http://www.semanticweb.org/bicimad/properties#neighbourhood_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/bicimad/properties#neighbourhood_name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/bicimad/classes#Neighbourhood> .
+<http://www.semanticweb.org/bicimad/properties#neighbourhood_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/bicimad/properties#neighbourhood_number
+<http://www.semanticweb.org/bicimad/properties#neighbourhood_number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/bicimad/properties#neighbourhood_number> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/bicimad/classes#Neighbourhood> .
+<http://www.semanticweb.org/bicimad/properties#neighbourhood_number> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/bicimad/properties#position_x
+<http://www.semanticweb.org/bicimad/properties#position_x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/bicimad/properties#position_x> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/bicimad/classes#Bike_Station> .
+<http://www.semanticweb.org/bicimad/properties#position_x> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.semanticweb.org/bicimad/properties#position_y
+<http://www.semanticweb.org/bicimad/properties#position_y> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/bicimad/properties#position_y> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/bicimad/classes#Bike_Station> .
+<http://www.semanticweb.org/bicimad/properties#position_y> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.semanticweb.org/bicimad/properties#registration_Date
+<http://www.semanticweb.org/bicimad/properties#registration_Date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/bicimad/properties#registration_Date> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/bicimad/classes#Bike_Station> .
+<http://www.semanticweb.org/bicimad/properties#registration_Date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+# 
+# http://www.semanticweb.org/bicimad/properties#spots
+<http://www.semanticweb.org/bicimad/properties#spots> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/bicimad/properties#spots> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/bicimad/classes#Bike_Station> .
+<http://www.semanticweb.org/bicimad/properties#spots> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/bicimad/properties#street_name
+<http://www.semanticweb.org/bicimad/properties#street_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/bicimad/properties#street_name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/bicimad/classes#Street> .
+<http://www.semanticweb.org/bicimad/properties#street_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/bicimad/properties#street_number
+<http://www.semanticweb.org/bicimad/properties#street_number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/bicimad/properties#street_number> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/bicimad/classes#Street> .
+<http://www.semanticweb.org/bicimad/properties#street_number> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/bicimad/classes#Bike_Station
+<http://www.semanticweb.org/bicimad/classes#Bike_Station> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/bicimad/classes#District
+<http://www.semanticweb.org/bicimad/classes#District> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/bicimad/classes#Neighbourhood
+<http://www.semanticweb.org/bicimad/classes#Neighbourhood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/bicimad/classes#Street
+<http://www.semanticweb.org/bicimad/classes#Street> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

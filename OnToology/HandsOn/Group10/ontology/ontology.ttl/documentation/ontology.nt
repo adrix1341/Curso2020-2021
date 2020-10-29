@@ -1,0 +1,78 @@
+<http://group10.org/hands-on/ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://group10.org/hands-on/ontology#hasIndicator
+<http://group10.org/hands-on/ontology#hasIndicator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://group10.org/hands-on/ontology#hasIndicator> <http://www.w3.org/2000/01/rdf-schema#domain> <http://group10.org/hands-on/ontology#Country> .
+<http://group10.org/hands-on/ontology#hasIndicator> <http://www.w3.org/2000/01/rdf-schema#range> <http://group10.org/hands-on/ontology#Indicator> .
+# 
+# http://group10.org/hands-on/ontology#hasMeasure
+<http://group10.org/hands-on/ontology#hasMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://group10.org/hands-on/ontology#hasMeasure> <http://www.w3.org/2000/01/rdf-schema#domain> <http://group10.org/hands-on/ontology#Indicator> .
+<http://group10.org/hands-on/ontology#hasMeasure> <http://www.w3.org/2000/01/rdf-schema#range> <http://group10.org/hands-on/ontology#Measure> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://group10.org/hands-on/ontology#countryISO3
+<http://group10.org/hands-on/ontology#countryISO3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://group10.org/hands-on/ontology#countryISO3> <http://www.w3.org/2000/01/rdf-schema#domain> <http://group10.org/hands-on/ontology#Country> .
+<http://group10.org/hands-on/ontology#countryISO3> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://group10.org/hands-on/ontology#countryName
+<http://group10.org/hands-on/ontology#countryName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://group10.org/hands-on/ontology#countryName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://group10.org/hands-on/ontology#Country> .
+<http://group10.org/hands-on/ontology#countryName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://group10.org/hands-on/ontology#date
+<http://group10.org/hands-on/ontology#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://group10.org/hands-on/ontology#date> <http://www.w3.org/2000/01/rdf-schema#domain> <http://group10.org/hands-on/ontology#Measure> .
+<http://group10.org/hands-on/ontology#date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://group10.org/hands-on/ontology#indicatorCode
+<http://group10.org/hands-on/ontology#indicatorCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://group10.org/hands-on/ontology#indicatorCode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://group10.org/hands-on/ontology#Indicator> .
+<http://group10.org/hands-on/ontology#indicatorCode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://group10.org/hands-on/ontology#indicatorName
+<http://group10.org/hands-on/ontology#indicatorName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://group10.org/hands-on/ontology#indicatorName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://group10.org/hands-on/ontology#Indicator> .
+<http://group10.org/hands-on/ontology#indicatorName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://group10.org/hands-on/ontology#value
+<http://group10.org/hands-on/ontology#value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://group10.org/hands-on/ontology#value> <http://www.w3.org/2000/01/rdf-schema#domain> <http://group10.org/hands-on/ontology#Measure> .
+<http://group10.org/hands-on/ontology#value> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://group10.org/hands-on/ontology#Country
+<http://group10.org/hands-on/ontology#Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://group10.org/hands-on/ontology#Indicator
+<http://group10.org/hands-on/ontology#Indicator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://group10.org/hands-on/ontology#Measure
+<http://group10.org/hands-on/ontology#Measure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

@@ -1,0 +1,54 @@
+{
+  "@context" : {
+    "Neighbourhood" : {
+      "@id" : "http://scooters.com/Group12/Classes#Neighbourhood"
+    },
+    "name_Place" : {
+      "@id" : "http://scooters.com/Group12/Properties#name_Place",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "name_District" : {
+      "@id" : "http://scooters.com/Group12/Properties#name_District",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAvailability" : {
+      "@id" : "http://scooters.com/Group12/Properties#hasAvailability",
+      "@type" : "@id"
+    },
+    "name_Company" : {
+      "@id" : "http://scooters.com/Group12/Properties#name_Company",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "District" : {
+      "@id" : "http://scooters.com/Group12/Classes#District"
+    },
+    "hasCompany" : {
+      "@id" : "http://scooters.com/Group12/Properties#hasCompany",
+      "@type" : "@id"
+    },
+    "quantity" : {
+      "@id" : "http://scooters.com/Group12/Properties#quantity",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "name_Availability" : {
+      "@id" : "http://scooters.com/Group12/Properties#name_Availability",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Company" : {
+      "@id" : "http://scooters.com/Group12/Classes#Company"
+    },
+    "name_NB" : {
+      "@id" : "http://scooters.com/Group12/Properties#name_NB",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Place" : {
+      "@id" : "http://scooters.com/Group12/Classes#Place"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "Availability" : {
+      "@id" : "http://scooters.com/Group12/Classes#Availability"
+    }
+  }
+}

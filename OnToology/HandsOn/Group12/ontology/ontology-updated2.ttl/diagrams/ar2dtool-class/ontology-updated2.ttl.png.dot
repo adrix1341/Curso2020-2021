@@ -1,0 +1,26 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "http://scooters.com/Group12/ClassesNeighbourhood" "http://scooters.com/Group12/ClassesDistrict" "http://scooters.com/Group12/ClassesPlace" ; /*classes style*/
+	"http://scooters.com/Group12/ClassesPlace" -> "http://schema.org/Place" [ label = "rdfs:seeAlso" ];
+	"http://scooters.com/Group12/ClassesPlace" -> "xsd:integer" [ label = "http://scooters.com/Group12/PropertiesquantityRideconga" ];
+	"http://scooters.com/Group12/ClassesPlace" -> "xsd:integer" [ label = "http://scooters.com/Group12/PropertiesquantityUfo" ];
+	"http://scooters.com/Group12/ClassesPlace" -> "xsd:integer" [ label = "http://scooters.com/Group12/PropertiesquantityKoko" ];
+	"http://scooters.com/Group12/ClassesNeighbourhood" -> "xsd:string" [ label = "http://scooters.com/Group12/Propertiesname_nb" ];
+	"http://scooters.com/Group12/ClassesPlace" -> "xsd:integer" [ label = "http://scooters.com/Group12/PropertiesquantityJumpUber" ];
+	"http://scooters.com/Group12/ClassesPlace" -> "xsd:integer" [ label = "http://scooters.com/Group12/PropertiesquantityMygo" ];
+	"http://scooters.com/Group12/ClassesPlace" -> "http://scooters.com/Group12/ClassesNeighbourhood" [ label = "http://scooters.com/Group12/PropertieshasNeighbourhood" ];
+	"http://scooters.com/Group12/ClassesPlace" -> "xsd:integer" [ label = "http://scooters.com/Group12/PropertiesquantityMovo" ];
+	"http://scooters.com/Group12/ClassesPlace" -> "xsd:string" [ label = "http://scooters.com/Group12/Propertiesname_place" ];
+	"http://scooters.com/Group12/ClassesPlace" -> "xsd:integer" [ label = "http://scooters.com/Group12/PropertiesquantityBird" ];
+	"http://scooters.com/Group12/ClassesPlace" -> "http://scooters.com/Group12/ClassesDistrict" [ label = "http://scooters.com/Group12/PropertieshasDistrict" ];
+	"http://scooters.com/Group12/ClassesPlace" -> "xsd:integer" [ label = "http://scooters.com/Group12/PropertiesquantityLime" ];
+	"http://scooters.com/Group12/ClassesPlace" -> "xsd:integer" [ label = "http://scooters.com/Group12/PropertiesquantityRebyRides" ];
+	"http://scooters.com/Group12/ClassesPlace" -> "xsd:integer" [ label = "http://scooters.com/Group12/PropertiesquantityTaxify" ];
+	"http://scooters.com/Group12/ClassesPlace" -> "xsd:integer" [ label = "http://scooters.com/Group12/PropertiesquantitySjvConsulting" ];
+	"http://scooters.com/Group12/ClassesPlace" -> "xsd:integer" [ label = "http://scooters.com/Group12/PropertiesquantityWind" ];
+	"http://scooters.com/Group12/ClassesDistrict" -> "xsd:string" [ label = "http://scooters.com/Group12/Propertiesname_district" ];
+	"http://scooters.com/Group12/ClassesPlace" -> "xsd:integer" [ label = "http://scooters.com/Group12/PropertiesquantityFlash" ];
+	"http://scooters.com/Group12/ClassesPlace" -> "xsd:integer" [ label = "http://scooters.com/Group12/PropertiesquantityAcciona" ];
+
+}

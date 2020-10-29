@@ -1,0 +1,99 @@
+<http://semantic.web.es/group05/ontology/BiciMAD/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://semantic.web.es/group05/ontology/BiciMAD/tieneBarrio
+<http://semantic.web.es/group05/ontology/BiciMAD/tieneBarrio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://semantic.web.es/group05/ontology/BiciMAD/tieneBarrio> <http://www.w3.org/2000/01/rdf-schema#domain> <http://semantic.web.es/group05/ontology/BiciMAD/EstacionBicicleta> .
+<http://semantic.web.es/group05/ontology/BiciMAD/tieneBarrio> <http://www.w3.org/2000/01/rdf-schema#range> <http://semantic.web.es/group05/ontology/BiciMAD/Barrio> .
+# 
+# http://semantic.web.es/group05/ontology/BiciMAD/tieneCalle
+<http://semantic.web.es/group05/ontology/BiciMAD/tieneCalle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://semantic.web.es/group05/ontology/BiciMAD/tieneCalle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://semantic.web.es/group05/ontology/BiciMAD/EstacionBicicleta> .
+<http://semantic.web.es/group05/ontology/BiciMAD/tieneCalle> <http://www.w3.org/2000/01/rdf-schema#range> <http://semantic.web.es/group05/ontology/BiciMAD/Calle> .
+# 
+# http://semantic.web.es/group05/ontology/BiciMAD/tieneCoordenadas
+<http://semantic.web.es/group05/ontology/BiciMAD/tieneCoordenadas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://semantic.web.es/group05/ontology/BiciMAD/tieneCoordenadas> <http://www.w3.org/2000/01/rdf-schema#domain> <http://semantic.web.es/group05/ontology/BiciMAD/EstacionBicicleta> .
+<http://semantic.web.es/group05/ontology/BiciMAD/tieneCoordenadas> <http://www.w3.org/2000/01/rdf-schema#range> <http://semantic.web.es/group05/ontology/BiciMAD/Coordenadas> .
+# 
+# http://semantic.web.es/group05/ontology/BiciMAD/tieneDistrito
+<http://semantic.web.es/group05/ontology/BiciMAD/tieneDistrito> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://semantic.web.es/group05/ontology/BiciMAD/tieneDistrito> <http://www.w3.org/2000/01/rdf-schema#domain> <http://semantic.web.es/group05/ontology/BiciMAD/EstacionBicicleta> .
+<http://semantic.web.es/group05/ontology/BiciMAD/tieneDistrito> <http://www.w3.org/2000/01/rdf-schema#range> <http://semantic.web.es/group05/ontology/BiciMAD/Distrito> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://semantic.web.es/group05/ontology/BiciMAD/latitud
+<http://semantic.web.es/group05/ontology/BiciMAD/latitud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://semantic.web.es/group05/ontology/BiciMAD/latitud> <http://www.w3.org/2000/01/rdf-schema#domain> <http://semantic.web.es/group05/ontology/BiciMAD/Coordenadas> .
+<http://semantic.web.es/group05/ontology/BiciMAD/latitud> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://semantic.web.es/group05/ontology/BiciMAD/longitud
+<http://semantic.web.es/group05/ontology/BiciMAD/longitud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://semantic.web.es/group05/ontology/BiciMAD/longitud> <http://www.w3.org/2000/01/rdf-schema#domain> <http://semantic.web.es/group05/ontology/BiciMAD/Coordenadas> .
+<http://semantic.web.es/group05/ontology/BiciMAD/longitud> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://semantic.web.es/group05/ontology/BiciMAD/nombreBarrio
+<http://semantic.web.es/group05/ontology/BiciMAD/nombreBarrio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://semantic.web.es/group05/ontology/BiciMAD/nombreBarrio> <http://www.w3.org/2000/01/rdf-schema#domain> <http://semantic.web.es/group05/ontology/BiciMAD/Barrio> .
+<http://semantic.web.es/group05/ontology/BiciMAD/nombreBarrio> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://semantic.web.es/group05/ontology/BiciMAD/nombreCalle
+<http://semantic.web.es/group05/ontology/BiciMAD/nombreCalle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://semantic.web.es/group05/ontology/BiciMAD/nombreCalle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://semantic.web.es/group05/ontology/BiciMAD/Calle> .
+<http://semantic.web.es/group05/ontology/BiciMAD/nombreCalle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://semantic.web.es/group05/ontology/BiciMAD/nombreDistrito
+<http://semantic.web.es/group05/ontology/BiciMAD/nombreDistrito> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://semantic.web.es/group05/ontology/BiciMAD/nombreDistrito> <http://www.w3.org/2000/01/rdf-schema#domain> <http://semantic.web.es/group05/ontology/BiciMAD/Distrito> .
+<http://semantic.web.es/group05/ontology/BiciMAD/nombreDistrito> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://semantic.web.es/group05/ontology/BiciMAD/numeroEstacion
+<http://semantic.web.es/group05/ontology/BiciMAD/numeroEstacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://semantic.web.es/group05/ontology/BiciMAD/numeroEstacion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://semantic.web.es/group05/ontology/BiciMAD/EstacionBicicleta> .
+<http://semantic.web.es/group05/ontology/BiciMAD/numeroEstacion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://semantic.web.es/group05/ontology/BiciMAD/puestos
+<http://semantic.web.es/group05/ontology/BiciMAD/puestos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://semantic.web.es/group05/ontology/BiciMAD/puestos> <http://www.w3.org/2000/01/rdf-schema#domain> <http://semantic.web.es/group05/ontology/BiciMAD/EstacionBicicleta> .
+<http://semantic.web.es/group05/ontology/BiciMAD/puestos> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://semantic.web.es/group05/ontology/BiciMAD/Barrio
+<http://semantic.web.es/group05/ontology/BiciMAD/Barrio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://semantic.web.es/group05/ontology/BiciMAD/Calle
+<http://semantic.web.es/group05/ontology/BiciMAD/Calle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://semantic.web.es/group05/ontology/BiciMAD/Coordenadas
+<http://semantic.web.es/group05/ontology/BiciMAD/Coordenadas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://semantic.web.es/group05/ontology/BiciMAD/Distrito
+<http://semantic.web.es/group05/ontology/BiciMAD/Distrito> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://semantic.web.es/group05/ontology/BiciMAD/EstacionBicicleta
+<http://semantic.web.es/group05/ontology/BiciMAD/EstacionBicicleta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

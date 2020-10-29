@@ -1,0 +1,90 @@
+<https://www.eletricrechargemadrid.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.eletricrechargemadrid.com/properties#localizacion
+<http://www.eletricrechargemadrid.com/properties#localizacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.eletricrechargemadrid.com/properties#localizacion> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.eletricrechargemadrid.com/classes#Punto_recarga> .
+<http://www.eletricrechargemadrid.com/properties#localizacion> <http://www.w3.org/2000/01/rdf-schema#range> <https://www.eletricrechargemadrid.com/classes#Ubicacion> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.eletricrechargemadrid.com/properties#codigo
+<http://www.eletricrechargemadrid.com/properties#codigo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.eletricrechargemadrid.com/properties#codigo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.eletricrechargemadrid.com/classes#Punto_recarga> .
+<http://www.eletricrechargemadrid.com/properties#codigo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.eletricrechargemadrid.com/properties#conectores
+<http://www.eletricrechargemadrid.com/properties#conectores> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.eletricrechargemadrid.com/properties#conectores> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.eletricrechargemadrid.com/classes#Punto_recarga> .
+<http://www.eletricrechargemadrid.com/properties#conectores> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.eletricrechargemadrid.com/properties#coordenada_x
+<http://www.eletricrechargemadrid.com/properties#coordenada_x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.eletricrechargemadrid.com/properties#coordenada_x> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.eletricrechargemadrid.com/classes#Ubicacion> .
+<http://www.eletricrechargemadrid.com/properties#coordenada_x> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.eletricrechargemadrid.com/properties#coordenada_y
+<http://www.eletricrechargemadrid.com/properties#coordenada_y> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.eletricrechargemadrid.com/properties#coordenada_y> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.eletricrechargemadrid.com/classes#Ubicacion> .
+<http://www.eletricrechargemadrid.com/properties#coordenada_y> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.eletricrechargemadrid.com/properties#distrito
+<http://www.eletricrechargemadrid.com/properties#distrito> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.eletricrechargemadrid.com/properties#distrito> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.eletricrechargemadrid.com/classes#Punto_recarga> .
+<http://www.eletricrechargemadrid.com/properties#distrito> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.eletricrechargemadrid.com/properties#edificio
+<http://www.eletricrechargemadrid.com/properties#edificio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.eletricrechargemadrid.com/properties#edificio> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.eletricrechargemadrid.com/classes#Punto_recarga> .
+<http://www.eletricrechargemadrid.com/properties#edificio> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.eletricrechargemadrid.com/properties#nombre_calle
+<http://www.eletricrechargemadrid.com/properties#nombre_calle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.eletricrechargemadrid.com/properties#nombre_calle> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.eletricrechargemadrid.com/classes#Ubicacion> .
+<http://www.eletricrechargemadrid.com/properties#nombre_calle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.eletricrechargemadrid.com/properties#numero_calle
+<http://www.eletricrechargemadrid.com/properties#numero_calle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.eletricrechargemadrid.com/properties#numero_calle> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.eletricrechargemadrid.com/classes#Ubicacion> .
+<http://www.eletricrechargemadrid.com/properties#numero_calle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.eletricrechargemadrid.com/properties#potencia
+<http://www.eletricrechargemadrid.com/properties#potencia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.eletricrechargemadrid.com/properties#potencia> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.eletricrechargemadrid.com/classes#Punto_recarga> .
+<http://www.eletricrechargemadrid.com/properties#potencia> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.eletricrechargemadrid.com/properties#terminales
+<http://www.eletricrechargemadrid.com/properties#terminales> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.eletricrechargemadrid.com/properties#terminales> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.eletricrechargemadrid.com/classes#Punto_recarga> .
+<http://www.eletricrechargemadrid.com/properties#terminales> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# https://www.eletricrechargemadrid.com/classes#Punto_recarga
+<https://www.eletricrechargemadrid.com/classes#Punto_recarga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://www.eletricrechargemadrid.com/classes#Ubicacion
+<https://www.eletricrechargemadrid.com/classes#Ubicacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

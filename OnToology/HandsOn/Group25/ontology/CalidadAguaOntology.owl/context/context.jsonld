@@ -1,0 +1,107 @@
+{
+  "@context" : {
+    "Localizacion" : {
+      "@id" : "http://practicagrupo25.es/api/datos/calidad_agua#Localizacion"
+    },
+    "Error4" : {
+      "@id" : "http://org.semanticweb.owlapi/error#Error4"
+    },
+    "Error12" : {
+      "@id" : "http://org.semanticweb.owlapi/error#Error12"
+    },
+    "olor" : {
+      "@id" : "http://practicagrupo25.es/api/datos/calidad_agua#olor"
+    },
+    "bacteriasAerobias" : {
+      "@id" : "http://practicagrupo25.es/api/datos/calidad_agua#bacteriasAerobias"
+    },
+    "turbidez" : {
+      "@id" : "http://practicagrupo25.es/api/datos/calidad_agua#turbidez"
+    },
+    "puntoMuestreo" : {
+      "@id" : "http://practicagrupo25.es/api/datos/calidad_agua#puntoMuestreo"
+    },
+    "Error11" : {
+      "@id" : "http://org.semanticweb.owlapi/error#Error11"
+    },
+    "Sabor" : {
+      "@id" : "http://practicagrupo25.es/api/datos/calidad_agua#Sabor"
+    },
+    "conductividad" : {
+      "@id" : "http://practicagrupo25.es/api/datos/calidad_agua#conductividad"
+    },
+    "uri" : {
+      "@id" : "http://practicagrupo25.es/api/datos/calidad_agua#uri",
+      "@type" : "@id"
+    },
+    "fecha" : {
+      "@id" : "http://practicagrupo25.es/api/datos/calidad_agua#fecha"
+    },
+    "id" : {
+      "@id" : "http://practicagrupo25.es/api/datos/calidad_agua#id"
+    },
+    "Error3" : {
+      "@id" : "http://org.semanticweb.owlapi/error#Error3"
+    },
+    "Error13" : {
+      "@id" : "http://org.semanticweb.owlapi/error#Error13"
+    },
+    "Medida_calidad_del_agua" : {
+      "@id" : "http://practicagrupo25.es/api/datos/calidad_agua#Medida_calidad_del_agua"
+    },
+    "Error5" : {
+      "@id" : "http://org.semanticweb.owlapi/error#Error5"
+    },
+    "Error9" : {
+      "@id" : "http://org.semanticweb.owlapi/error#Error9"
+    },
+    "sabor" : {
+      "@id" : "http://practicagrupo25.es/api/datos/calidad_agua#sabor"
+    },
+    "Error7" : {
+      "@id" : "http://org.semanticweb.owlapi/error#Error7"
+    },
+    "Error1" : {
+      "@id" : "http://org.semanticweb.owlapi/error#Error1"
+    },
+    "ph" : {
+      "@id" : "http://practicagrupo25.es/api/datos/calidad_agua#ph"
+    },
+    "bacteriasColiformes" : {
+      "@id" : "http://practicagrupo25.es/api/datos/calidad_agua#bacteriasColiformes"
+    },
+    "cloroLibre" : {
+      "@id" : "http://practicagrupo25.es/api/datos/calidad_agua#cloroLibre"
+    },
+    "Error6" : {
+      "@id" : "http://org.semanticweb.owlapi/error#Error6"
+    },
+    "modified" : {
+      "@id" : "http://practicagrupo25.es/api/datos/calidad_agua#modified"
+    },
+    "Error2" : {
+      "@id" : "http://org.semanticweb.owlapi/error#Error2"
+    },
+    "Error8" : {
+      "@id" : "http://org.semanticweb.owlapi/error#Error8"
+    },
+    "Error10" : {
+      "@id" : "http://org.semanticweb.owlapi/error#Error10"
+    },
+    "clostridiumPerfringes" : {
+      "@id" : "http://practicagrupo25.es/api/datos/calidad_agua#clostridiumPerfringes"
+    },
+    "Error14" : {
+      "@id" : "http://org.semanticweb.owlapi/error#Error14"
+    },
+    "color" : {
+      "@id" : "http://practicagrupo25.es/api/datos/calidad_agua#color"
+    },
+    "eColi" : {
+      "@id" : "http://practicagrupo25.es/api/datos/calidad_agua#eColi"
+    },
+    "oxidabilidad" : {
+      "@id" : "http://practicagrupo25.es/api/datos/calidad_agua#oxidabilidad"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "@context" : {
+    "isOpen" : {
+      "@id" : "http://group11.com/isOpen"
+    },
+    "isInDistrict" : {
+      "@id" : "http://group11.com/isInDistrict",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasLatitude" : {
+      "@id" : "http://group11.com/hasLatitude",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "hasLongitude" : {
+      "@id" : "http://group11.com/hasLongitude",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "MobileRecyclePoint" : {
+      "@id" : "http://group11.com/MobileRecyclePoint"
+    },
+    "Schedule" : {
+      "@id" : "http://group11.com/Schedule"
+    },
+    "hasLocation" : {
+      "@id" : "http://group11.com/hasLocation",
+      "@type" : "@id"
+    },
+    "hasSchedule" : {
+      "@id" : "http://group11.com/hasSchedule",
+      "@type" : "@id"
+    },
+    "Location" : {
+      "@id" : "http://group11.com/Location"
+    }
+  }
+}

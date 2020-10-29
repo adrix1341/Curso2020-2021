@@ -1,0 +1,54 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://assignment2.com/artifactsClass01",
+  "http://assignment2.com/artifactsincludes" : [ {
+    "@id" : "http://assignment2.com/artifactsComputer101"
+  }, {
+    "@id" : "http://assignment2.com/artifactsSensor029"
+  } ]
+}, {
+  "@id" : "http://assignment2.com/artifactsComputer101",
+  "http://assignment2.com/artifactshasOwner" : [ {
+    "@id" : "http://assignment2.com/artifactsUser10A"
+  } ]
+}, {
+  "@id" : "http://assignment2.com/artifactsMeasurement8401",
+  "http://assignment2.com/artifactsatTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2010-06-12T12:00:12"
+  } ],
+  "http://assignment2.com/artifactshasTemperature" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "29"
+  } ]
+}, {
+  "@id" : "http://assignment2.com/artifactsSensor029",
+  "http://assignment2.com/artifactshasMeasurement" : [ {
+    "@id" : "http://assignment2.com/artifactsMeasurement8401"
+  } ]
+}, {
+  "@id" : "http://assignment2.com/artifactsUser10A",
+  "http://assignment2.com/artifactshasName" : [ {
+    "@value" : "Pedro"
+  } ]
+}, {
+  "@id" : "http://assignment2.com/artifactsatTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://assignment2.com/artifactshasMeasurement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://assignment2.com/artifactshasName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://assignment2.com/artifactshasOwner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://assignment2.com/artifactshasTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://assignment2.com/artifactsincludes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

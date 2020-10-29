@@ -1,0 +1,247 @@
+@prefix : <http://practicagrupo25.es/api/datos/calidad_agua#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://practicagrupo25.es/api/datos/calidad_agua> .
+
+<http://practicagrupo25.es/api/datos/calidad_agua> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2002/07/owl#maxQualifiedCardinality
+owl:maxQualifiedCardinality rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#uri
+:uri rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#Sabor
+:Sabor rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#bacteriasAerobias
+:bacteriasAerobias rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#bacteriasColiformes
+:bacteriasColiformes rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#cloroLibre
+:cloroLibre rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#clostridiumPerfringes
+:clostridiumPerfringes rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#color
+:color rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#conductividad
+:conductividad rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#eColi
+:eColi rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#fecha
+:fecha rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#id
+:id rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#modified
+:modified rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#olor
+:olor rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#oxidabilidad
+:oxidabilidad rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#ph
+:ph rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#puntoMuestreo
+:puntoMuestreo rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#sabor
+:sabor rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#turbidez
+:turbidez rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://org.semanticweb.owlapi/error#Error1
+<http://org.semanticweb.owlapi/error#Error1> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error10
+<http://org.semanticweb.owlapi/error#Error10> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error11
+<http://org.semanticweb.owlapi/error#Error11> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error12
+<http://org.semanticweb.owlapi/error#Error12> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error13
+<http://org.semanticweb.owlapi/error#Error13> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error14
+<http://org.semanticweb.owlapi/error#Error14> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error2
+<http://org.semanticweb.owlapi/error#Error2> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error3
+<http://org.semanticweb.owlapi/error#Error3> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error4
+<http://org.semanticweb.owlapi/error#Error4> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error5
+<http://org.semanticweb.owlapi/error#Error5> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error6
+<http://org.semanticweb.owlapi/error#Error6> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error7
+<http://org.semanticweb.owlapi/error#Error7> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error8
+<http://org.semanticweb.owlapi/error#Error8> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error9
+<http://org.semanticweb.owlapi/error#Error9> rdf:type owl:Class .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#Localizacion
+:Localizacion rdf:type owl:Class ;
+              rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error14> ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :id ;
+                                owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                owl:onDataRange xsd:string
+                              ] .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#Medida_calidad_del_agua
+:Medida_calidad_del_agua rdf:type owl:Class ;
+                         rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error1> ,
+                                         <http://org.semanticweb.owlapi/error#Error10> ,
+                                         <http://org.semanticweb.owlapi/error#Error11> ,
+                                         <http://org.semanticweb.owlapi/error#Error12> ,
+                                         <http://org.semanticweb.owlapi/error#Error13> ,
+                                         <http://org.semanticweb.owlapi/error#Error2> ,
+                                         <http://org.semanticweb.owlapi/error#Error3> ,
+                                         <http://org.semanticweb.owlapi/error#Error4> ,
+                                         <http://org.semanticweb.owlapi/error#Error5> ,
+                                         <http://org.semanticweb.owlapi/error#Error6> ,
+                                         <http://org.semanticweb.owlapi/error#Error7> ,
+                                         <http://org.semanticweb.owlapi/error#Error8> ,
+                                         <http://org.semanticweb.owlapi/error#Error9> ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty :Sabor ;
+                                           owl:someValuesFrom xsd:string
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty :eColi ;
+                                           owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                           owl:onDataRange xsd:double
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty :id ;
+                                           owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                           owl:onDataRange xsd:string
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty :modified ;
+                                           owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                           owl:onDataRange xsd:dateTimeStamp
+                                         ] .
+
+
+[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
+] .
+
+[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

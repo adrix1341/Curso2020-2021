@@ -1,0 +1,17 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "classes:Ubicacion" "classes:Punto_recarga" ; /*classes style*/
+	"classes:Punto_recarga" -> "xsd:string" [ label = "properties:codigo" ];
+	"classes:Punto_recarga" -> "xsd:integer" [ label = "properties:terminales" ];
+	"classes:Punto_recarga" -> "xsd:string" [ label = "properties:conectores" ];
+	"classes:Punto_recarga" -> "xsd:integer" [ label = "properties:potencia" ];
+	"classes:Ubicacion" -> "xsd:string" [ label = "properties:nombre_calle" ];
+	"classes:Punto_recarga" -> "xsd:string" [ label = "properties:edificio" ];
+	"classes:Ubicacion" -> "xsd:float" [ label = "properties:coordenada_y" ];
+	"classes:Ubicacion" -> "xsd:float" [ label = "properties:coordenada_x" ];
+	"classes:Punto_recarga" -> "classes:Ubicacion" [ label = "properties:localizacion" ];
+	"classes:Ubicacion" -> "xsd:integer" [ label = "properties:numero_calle" ];
+	"classes:Punto_recarga" -> "xsd:string" [ label = "properties:distrito" ];
+
+}

@@ -1,0 +1,18 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "base:District" ; /*classes style*/
+	"base:District" -> "xsd:integer" [ label = "base:hasPerimeterAverage" ];
+	"base:District" -> "xsd:integer" [ label = "base:hasHeightAverage" ];
+	"base:District" -> "xsd:integer" [ label = "base:hasYoung" ];
+	"base:District" -> "xsd:integer" [ label = "base:hasMature" ];
+	"base:District" -> "xsd:integer" [ label = "base:hasOthers" ];
+	"base:District" -> "xsd:integer" [ label = "base:hasTotal" ];
+	"base:District" -> "xsd:integer" [ label = "base:hasJustPlanted" ];
+	"base:District" -> "xsd:integer" [ label = "base:hasOld" ];
+	"base:District" -> "xsd:integer" [ label = "base:hasUnits" ];
+	"base:District" -> "xsd:string" [ label = "base:hasSpecies" ];
+	"base:District" -> "xsd:string" [ label = "base:hasName" ];
+	"base:District" -> "xsd:integer" [ label = "base:hasId" ];
+
+}

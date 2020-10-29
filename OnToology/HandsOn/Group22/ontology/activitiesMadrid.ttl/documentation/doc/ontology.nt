@@ -1,0 +1,97 @@
+<http://www.semanticweb.org/activitiesMadrid/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#date
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/activitiesMadrid/properties#ubicado_en
+<http://www.semanticweb.org/activitiesMadrid/properties#ubicado_en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/activitiesMadrid/properties#ubicado_en> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/activitiesMadrid/classes#Actividad> .
+<http://www.semanticweb.org/activitiesMadrid/properties#ubicado_en> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/activitiesMadrid/classes#Ubicaci\u00F3n> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/activitiesMadrid/properties#descripcion
+<http://www.semanticweb.org/activitiesMadrid/properties#descripcion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/activitiesMadrid/properties#descripcion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/activitiesMadrid/classes#Actividad> .
+<http://www.semanticweb.org/activitiesMadrid/properties#descripcion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/activitiesMadrid/properties#direccion
+<http://www.semanticweb.org/activitiesMadrid/properties#direccion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/activitiesMadrid/properties#direccion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/activitiesMadrid/classes#Ubicaci\u00F3n> .
+<http://www.semanticweb.org/activitiesMadrid/properties#direccion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.semanticweb.org/activitiesMadrid/properties#fecha
+<http://www.semanticweb.org/activitiesMadrid/properties#fecha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/activitiesMadrid/properties#fecha> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/activitiesMadrid/classes#Actividad> .
+<http://www.semanticweb.org/activitiesMadrid/properties#fecha> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+# 
+# http://www.semanticweb.org/activitiesMadrid/properties#id_actividad
+<http://www.semanticweb.org/activitiesMadrid/properties#id_actividad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/activitiesMadrid/properties#id_actividad> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/activitiesMadrid/classes#Actividad> .
+<http://www.semanticweb.org/activitiesMadrid/properties#id_actividad> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/activitiesMadrid/properties#latitud
+<http://www.semanticweb.org/activitiesMadrid/properties#latitud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/activitiesMadrid/properties#latitud> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/activitiesMadrid/classes#Ubicaci\u00F3n> .
+<http://www.semanticweb.org/activitiesMadrid/properties#latitud> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.semanticweb.org/activitiesMadrid/properties#longitud
+<http://www.semanticweb.org/activitiesMadrid/properties#longitud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/activitiesMadrid/properties#longitud> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/activitiesMadrid/classes#Ubicaci\u00F3n> .
+<http://www.semanticweb.org/activitiesMadrid/properties#longitud> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.semanticweb.org/activitiesMadrid/properties#nombre_actividad
+<http://www.semanticweb.org/activitiesMadrid/properties#nombre_actividad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/activitiesMadrid/properties#nombre_actividad> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/activitiesMadrid/classes#Actividad> .
+<http://www.semanticweb.org/activitiesMadrid/properties#nombre_actividad> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/activitiesMadrid/properties#precio
+<http://www.semanticweb.org/activitiesMadrid/properties#precio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/activitiesMadrid/properties#precio> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/activitiesMadrid/classes#Actividad> .
+<http://www.semanticweb.org/activitiesMadrid/properties#precio> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/activitiesMadrid/properties#tipo
+<http://www.semanticweb.org/activitiesMadrid/properties#tipo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/activitiesMadrid/properties#tipo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/activitiesMadrid/classes#Actividad> .
+<http://www.semanticweb.org/activitiesMadrid/properties#tipo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/activitiesMadrid/classes#Actividad
+<http://www.semanticweb.org/activitiesMadrid/classes#Actividad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/activitiesMadrid/classes#Ubicación
+<http://www.semanticweb.org/activitiesMadrid/classes#Ubicaci\u00F3n> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

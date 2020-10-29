@@ -1,0 +1,96 @@
+<http://contenedoresdemadrid.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://contenedoresdemadrid.com/Properties#locatedDistrict
+<http://contenedoresdemadrid.com/Properties#locatedDistrict> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://contenedoresdemadrid.com/Properties#locatedDistrict> <http://www.w3.org/2000/01/rdf-schema#domain> <http://contenedoresdemadrid.com/Classes#ReciclyngBin> .
+<http://contenedoresdemadrid.com/Properties#locatedDistrict> <http://www.w3.org/2000/01/rdf-schema#range> <http://contenedoresdemadrid.com/Classes#District> .
+# 
+# http://contenedoresdemadrid.com/Properties#locatedStreet
+<http://contenedoresdemadrid.com/Properties#locatedStreet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://contenedoresdemadrid.com/Properties#locatedStreet> <http://www.w3.org/2000/01/rdf-schema#domain> <http://contenedoresdemadrid.com/Classes#ReciclyngBin> .
+<http://contenedoresdemadrid.com/Properties#locatedStreet> <http://www.w3.org/2000/01/rdf-schema#range> <http://contenedoresdemadrid.com/Classes#Street> .
+# 
+# http://contenedoresdemadrid.com/Properties#typeResidue
+<http://contenedoresdemadrid.com/Properties#typeResidue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://contenedoresdemadrid.com/Properties#typeResidue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://contenedoresdemadrid.com/Classes#ReciclyngBin> .
+<http://contenedoresdemadrid.com/Properties#typeResidue> <http://www.w3.org/2000/01/rdf-schema#range> <http://contenedoresdemadrid.com/Classes#TypeResidue> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://contenedoresdemadrid.com/Properties#coordinateX
+<http://contenedoresdemadrid.com/Properties#coordinateX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://contenedoresdemadrid.com/Properties#coordinateX> <http://www.w3.org/2000/01/rdf-schema#domain> <http://contenedoresdemadrid.com/Classes#ReciclyngBin> .
+<http://contenedoresdemadrid.com/Properties#coordinateX> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://contenedoresdemadrid.com/Properties#coordinateY
+<http://contenedoresdemadrid.com/Properties#coordinateY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://contenedoresdemadrid.com/Properties#coordinateY> <http://www.w3.org/2000/01/rdf-schema#domain> <http://contenedoresdemadrid.com/Classes#ReciclyngBin> .
+<http://contenedoresdemadrid.com/Properties#coordinateY> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://contenedoresdemadrid.com/Properties#districtName
+<http://contenedoresdemadrid.com/Properties#districtName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://contenedoresdemadrid.com/Properties#districtName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://contenedoresdemadrid.com/Classes#District> .
+<http://contenedoresdemadrid.com/Properties#districtName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://contenedoresdemadrid.com/Properties#latitude
+<http://contenedoresdemadrid.com/Properties#latitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://contenedoresdemadrid.com/Properties#latitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://contenedoresdemadrid.com/Classes#ReciclyngBin> .
+<http://contenedoresdemadrid.com/Properties#latitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://contenedoresdemadrid.com/Properties#longitude
+<http://contenedoresdemadrid.com/Properties#longitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://contenedoresdemadrid.com/Properties#longitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://contenedoresdemadrid.com/Classes#ReciclyngBin> .
+<http://contenedoresdemadrid.com/Properties#longitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://contenedoresdemadrid.com/Properties#streetName
+<http://contenedoresdemadrid.com/Properties#streetName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://contenedoresdemadrid.com/Properties#streetName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://contenedoresdemadrid.com/Classes#Street> .
+<http://contenedoresdemadrid.com/Properties#streetName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://contenedoresdemadrid.com/Properties#streetNum
+<http://contenedoresdemadrid.com/Properties#streetNum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://contenedoresdemadrid.com/Properties#streetNum> <http://www.w3.org/2000/01/rdf-schema#domain> <http://contenedoresdemadrid.com/Classes#Street> .
+<http://contenedoresdemadrid.com/Properties#streetNum> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://contenedoresdemadrid.com/Properties#type
+<http://contenedoresdemadrid.com/Properties#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://contenedoresdemadrid.com/Properties#type> <http://www.w3.org/2000/01/rdf-schema#domain> <http://contenedoresdemadrid.com/Classes#TypeResidue> .
+<http://contenedoresdemadrid.com/Properties#type> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://contenedoresdemadrid.com/Classes#District
+<http://contenedoresdemadrid.com/Classes#District> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://contenedoresdemadrid.com/Classes#ReciclyngBin
+<http://contenedoresdemadrid.com/Classes#ReciclyngBin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://contenedoresdemadrid.com/Classes#Street
+<http://contenedoresdemadrid.com/Classes#Street> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://contenedoresdemadrid.com/Classes#TypeResidue
+<http://contenedoresdemadrid.com/Classes#TypeResidue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

@@ -1,0 +1,8 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "classes:Neighbourhood" "classes:District" "classes:Place" ; /*classes style*/
+	"classes:Neighbourhood" -> "classes:Place" [ label = "rdfs:subClassOf" ];
+	"classes:District" -> "classes:Place" [ label = "rdfs:subClassOf" ];
+
+}

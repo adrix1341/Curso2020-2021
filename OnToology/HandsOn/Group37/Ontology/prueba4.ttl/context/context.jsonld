@@ -1,0 +1,54 @@
+{
+  "@context" : {
+    "Localizacion" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#Localizacion"
+    },
+    "Fuente" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#Fuente"
+    },
+    "distrito" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#distrito",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "longitud" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#longitud",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "via_publica" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#via_publica",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "tiene" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#tiene",
+      "@type" : "@id"
+    },
+    "direccion" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#direccion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "seEncuentraEn" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#seEncuentraEn",
+      "@type" : "@id"
+    },
+    "latitud" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#latitud",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "en_funcionamiento" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#en_funcionamiento",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "coord_x" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#coord_x",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "codigo" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#codigo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "coord_y" : {
+      "@id" : "http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#coord_y",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    }
+  }
+}

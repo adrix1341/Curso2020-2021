@@ -1,0 +1,92 @@
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://http://www.semanticweb.org/group23/ontologies/collected-glass#livingIn
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#livingIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#livingIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://http://www.semanticweb.org/group23/ontologies/collected-glass#Town> .
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#livingIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://http://www.semanticweb.org/group23/ontologies/collected-glass#Population> .
+# 
+# http://http://www.semanticweb.org/group23/ontologies/collected-glass#locatedIn
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#locatedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#locatedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://http://www.semanticweb.org/group23/ontologies/collected-glass#Town> .
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#locatedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://http://www.semanticweb.org/group23/ontologies/collected-glass#Containers> .
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#locatedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://http://www.semanticweb.org/group23/ontologies/collected-glass#Glass> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://http://www.semanticweb.org/group23/ontologies/collected-glass#containersAtYear
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#containersAtYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#containersAtYear> <http://www.w3.org/2000/01/rdf-schema#domain> <http://http://www.semanticweb.org/group23/ontologies/collected-glass#Containers> .
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#containersAtYear> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://http://www.semanticweb.org/group23/ontologies/collected-glass#glassAtYear
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#glassAtYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#glassAtYear> <http://www.w3.org/2000/01/rdf-schema#domain> <http://http://www.semanticweb.org/group23/ontologies/collected-glass#Glass> .
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#glassAtYear> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://http://www.semanticweb.org/group23/ontologies/collected-glass#hasCode
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#hasCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#hasCode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://http://www.semanticweb.org/group23/ontologies/collected-glass#Town> .
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#hasCode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://http://www.semanticweb.org/group23/ontologies/collected-glass#hasName
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#hasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#hasName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://http://www.semanticweb.org/group23/ontologies/collected-glass#Town> .
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#hasName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://http://www.semanticweb.org/group23/ontologies/collected-glass#haspopulationAtYear
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#haspopulationAtYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#haspopulationAtYear> <http://www.w3.org/2000/01/rdf-schema#domain> <http://http://www.semanticweb.org/group23/ontologies/collected-glass#Population> .
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#haspopulationAtYear> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://http://www.semanticweb.org/group23/ontologies/collected-glass#numberOfContainers
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#numberOfContainers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#numberOfContainers> <http://www.w3.org/2000/01/rdf-schema#domain> <http://http://www.semanticweb.org/group23/ontologies/collected-glass#Containers> .
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#numberOfContainers> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://http://www.semanticweb.org/group23/ontologies/collected-glass#numberOfGlass
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#numberOfGlass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#numberOfGlass> <http://www.w3.org/2000/01/rdf-schema#domain> <http://http://www.semanticweb.org/group23/ontologies/collected-glass#Glass> .
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#numberOfGlass> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://http://www.semanticweb.org/group23/ontologies/collected-glass#numberOfPeople
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#numberOfPeople> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#numberOfPeople> <http://www.w3.org/2000/01/rdf-schema#domain> <http://http://www.semanticweb.org/group23/ontologies/collected-glass#Population> .
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#numberOfPeople> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://http://www.semanticweb.org/group23/ontologies/collected-glass#Containers
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#Containers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://http://www.semanticweb.org/group23/ontologies/collected-glass#Glass
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#Glass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://http://www.semanticweb.org/group23/ontologies/collected-glass#Population
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#Population> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://http://www.semanticweb.org/group23/ontologies/collected-glass#Town
+<http://http://www.semanticweb.org/group23/ontologies/collected-glass#Town> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

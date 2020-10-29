@@ -1,0 +1,134 @@
+<http://scooters.com/Group12/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://scooters.com/Group12/PropertieshasDistrict
+<http://scooters.com/Group12/PropertieshasDistrict> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://scooters.com/Group12/PropertieshasDistrict> <http://www.w3.org/2000/01/rdf-schema#domain> <http://scooters.com/Group12/ClassesPlace> .
+<http://scooters.com/Group12/PropertieshasDistrict> <http://www.w3.org/2000/01/rdf-schema#range> <http://scooters.com/Group12/ClassesDistrict> .
+# 
+# http://scooters.com/Group12/PropertieshasNeighbourhood
+<http://scooters.com/Group12/PropertieshasNeighbourhood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://scooters.com/Group12/PropertieshasNeighbourhood> <http://www.w3.org/2000/01/rdf-schema#domain> <http://scooters.com/Group12/ClassesPlace> .
+<http://scooters.com/Group12/PropertieshasNeighbourhood> <http://www.w3.org/2000/01/rdf-schema#range> <http://scooters.com/Group12/ClassesNeighbourhood> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://scooters.com/Group12/Propertiesname_district
+<http://scooters.com/Group12/Propertiesname_district> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://scooters.com/Group12/Propertiesname_district> <http://www.w3.org/2000/01/rdf-schema#domain> <http://scooters.com/Group12/ClassesDistrict> .
+<http://scooters.com/Group12/Propertiesname_district> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://scooters.com/Group12/Propertiesname_nb
+<http://scooters.com/Group12/Propertiesname_nb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://scooters.com/Group12/Propertiesname_nb> <http://www.w3.org/2000/01/rdf-schema#domain> <http://scooters.com/Group12/ClassesNeighbourhood> .
+<http://scooters.com/Group12/Propertiesname_nb> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://scooters.com/Group12/Propertiesname_place
+<http://scooters.com/Group12/Propertiesname_place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://scooters.com/Group12/Propertiesname_place> <http://www.w3.org/2000/01/rdf-schema#domain> <http://scooters.com/Group12/ClassesPlace> .
+<http://scooters.com/Group12/Propertiesname_place> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://scooters.com/Group12/PropertiesquantityAcciona
+<http://scooters.com/Group12/PropertiesquantityAcciona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://scooters.com/Group12/PropertiesquantityAcciona> <http://www.w3.org/2000/01/rdf-schema#domain> <http://scooters.com/Group12/ClassesPlace> .
+<http://scooters.com/Group12/PropertiesquantityAcciona> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://scooters.com/Group12/PropertiesquantityBird
+<http://scooters.com/Group12/PropertiesquantityBird> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://scooters.com/Group12/PropertiesquantityBird> <http://www.w3.org/2000/01/rdf-schema#domain> <http://scooters.com/Group12/ClassesPlace> .
+<http://scooters.com/Group12/PropertiesquantityBird> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://scooters.com/Group12/PropertiesquantityFlash
+<http://scooters.com/Group12/PropertiesquantityFlash> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://scooters.com/Group12/PropertiesquantityFlash> <http://www.w3.org/2000/01/rdf-schema#domain> <http://scooters.com/Group12/ClassesPlace> .
+<http://scooters.com/Group12/PropertiesquantityFlash> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://scooters.com/Group12/PropertiesquantityJumpUber
+<http://scooters.com/Group12/PropertiesquantityJumpUber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://scooters.com/Group12/PropertiesquantityJumpUber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://scooters.com/Group12/ClassesPlace> .
+<http://scooters.com/Group12/PropertiesquantityJumpUber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://scooters.com/Group12/PropertiesquantityKoko
+<http://scooters.com/Group12/PropertiesquantityKoko> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://scooters.com/Group12/PropertiesquantityKoko> <http://www.w3.org/2000/01/rdf-schema#domain> <http://scooters.com/Group12/ClassesPlace> .
+<http://scooters.com/Group12/PropertiesquantityKoko> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://scooters.com/Group12/PropertiesquantityLime
+<http://scooters.com/Group12/PropertiesquantityLime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://scooters.com/Group12/PropertiesquantityLime> <http://www.w3.org/2000/01/rdf-schema#domain> <http://scooters.com/Group12/ClassesPlace> .
+<http://scooters.com/Group12/PropertiesquantityLime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://scooters.com/Group12/PropertiesquantityMovo
+<http://scooters.com/Group12/PropertiesquantityMovo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://scooters.com/Group12/PropertiesquantityMovo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://scooters.com/Group12/ClassesPlace> .
+<http://scooters.com/Group12/PropertiesquantityMovo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://scooters.com/Group12/PropertiesquantityMygo
+<http://scooters.com/Group12/PropertiesquantityMygo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://scooters.com/Group12/PropertiesquantityMygo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://scooters.com/Group12/ClassesPlace> .
+<http://scooters.com/Group12/PropertiesquantityMygo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://scooters.com/Group12/PropertiesquantityRebyRides
+<http://scooters.com/Group12/PropertiesquantityRebyRides> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://scooters.com/Group12/PropertiesquantityRebyRides> <http://www.w3.org/2000/01/rdf-schema#domain> <http://scooters.com/Group12/ClassesPlace> .
+<http://scooters.com/Group12/PropertiesquantityRebyRides> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://scooters.com/Group12/PropertiesquantityRideconga
+<http://scooters.com/Group12/PropertiesquantityRideconga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://scooters.com/Group12/PropertiesquantityRideconga> <http://www.w3.org/2000/01/rdf-schema#domain> <http://scooters.com/Group12/ClassesPlace> .
+<http://scooters.com/Group12/PropertiesquantityRideconga> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://scooters.com/Group12/PropertiesquantitySjvConsulting
+<http://scooters.com/Group12/PropertiesquantitySjvConsulting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://scooters.com/Group12/PropertiesquantitySjvConsulting> <http://www.w3.org/2000/01/rdf-schema#domain> <http://scooters.com/Group12/ClassesPlace> .
+<http://scooters.com/Group12/PropertiesquantitySjvConsulting> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://scooters.com/Group12/PropertiesquantityTaxify
+<http://scooters.com/Group12/PropertiesquantityTaxify> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://scooters.com/Group12/PropertiesquantityTaxify> <http://www.w3.org/2000/01/rdf-schema#domain> <http://scooters.com/Group12/ClassesPlace> .
+<http://scooters.com/Group12/PropertiesquantityTaxify> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://scooters.com/Group12/PropertiesquantityUfo
+<http://scooters.com/Group12/PropertiesquantityUfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://scooters.com/Group12/PropertiesquantityUfo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://scooters.com/Group12/ClassesPlace> .
+<http://scooters.com/Group12/PropertiesquantityUfo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://scooters.com/Group12/PropertiesquantityWind
+<http://scooters.com/Group12/PropertiesquantityWind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://scooters.com/Group12/PropertiesquantityWind> <http://www.w3.org/2000/01/rdf-schema#domain> <http://scooters.com/Group12/ClassesPlace> .
+<http://scooters.com/Group12/PropertiesquantityWind> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://scooters.com/Group12/ClassesDistrict
+<http://scooters.com/Group12/ClassesDistrict> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://scooters.com/Group12/ClassesNeighbourhood
+<http://scooters.com/Group12/ClassesNeighbourhood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://scooters.com/Group12/ClassesPlace
+<http://scooters.com/Group12/ClassesPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://scooters.com/Group12/ClassesPlace> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://schema.org/Place> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

@@ -1,0 +1,95 @@
+{
+  "@context" : {
+    "tieneDestino" : {
+      "@id" : "http://group56.org/zonas-verdes/tieneDestino",
+      "@type" : "@id"
+    },
+    "nombreDestino" : {
+      "@id" : "http://group56.org/zonas-verdes/nombreDestino",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "tamanioSolar" : {
+      "@id" : "http://group56.org/zonas-verdes/tamanioSolar",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "nombreNaturaleza" : {
+      "@id" : "http://group56.org/zonas-verdes/nombreNaturaleza",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "nombreSubepigrafe" : {
+      "@id" : "http://group56.org/zonas-verdes/nombreSubepigrafe",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "tieneNdeArchivo" : {
+      "@id" : "http://group56.org/zonas-verdes/tieneNdeArchivo",
+      "@type" : "@id"
+    },
+    "nombreApartado" : {
+      "@id" : "http://group56.org/zonas-verdes/nombreApartado",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "tieneNaturaleza" : {
+      "@id" : "http://group56.org/zonas-verdes/tieneNaturaleza",
+      "@type" : "@id"
+    },
+    "SituacionDestino" : {
+      "@id" : "http://group56.org/zonas-verdes/SituacionDestino"
+    },
+    "numeroArchivo" : {
+      "@id" : "http://group56.org/zonas-verdes/numeroArchivo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "tieneCalle" : {
+      "@id" : "http://group56.org/zonas-verdes/tieneCalle",
+      "@type" : "@id"
+    },
+    "Distrito" : {
+      "@id" : "http://group56.org/zonas-verdes/Distrito"
+    },
+    "tieneApartado" : {
+      "@id" : "http://group56.org/zonas-verdes/tieneApartado",
+      "@type" : "@id"
+    },
+    "situadoen" : {
+      "@id" : "http://group56.org/zonas-verdes/situadoen",
+      "@type" : "@id"
+    },
+    "Destino" : {
+      "@id" : "http://group56.org/zonas-verdes/Destino"
+    },
+    "nombreDistrito" : {
+      "@id" : "http://group56.org/zonas-verdes/nombreDistrito",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "nombreCalle" : {
+      "@id" : "http://group56.org/zonas-verdes/nombreCalle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Apartado" : {
+      "@id" : "http://group56.org/zonas-verdes/Apartado"
+    },
+    "Subepigrafe" : {
+      "@id" : "http://group56.org/zonas-verdes/Subepigrafe"
+    },
+    "tieneSubepigrafe" : {
+      "@id" : "http://group56.org/zonas-verdes/tieneSubepigrafe",
+      "@type" : "@id"
+    },
+    "NaturalezaInmueble" : {
+      "@id" : "http://group56.org/zonas-verdes/NaturalezaInmueble"
+    },
+    "NdeArchivo" : {
+      "@id" : "http://group56.org/zonas-verdes/NdeArchivo"
+    },
+    "tieneSolar" : {
+      "@id" : "http://group56.org/zonas-verdes/tieneSolar",
+      "@type" : "@id"
+    },
+    "Solar" : {
+      "@id" : "http://group56.org/zonas-verdes/Solar"
+    }
+  }
+}

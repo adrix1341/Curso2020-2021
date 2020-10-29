@@ -1,0 +1,829 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://semweb.mmlab.be/ns/rml#logicalSource
+<http://semweb.mmlab.be/ns/rml#logicalSource> rdf:type owl:AnnotationProperty .
+
+
+###  http://semweb.mmlab.be/ns/rml#reference
+<http://semweb.mmlab.be/ns/rml#reference> rdf:type owl:AnnotationProperty .
+
+
+###  http://semweb.mmlab.be/ns/rml#referenceFormulation
+<http://semweb.mmlab.be/ns/rml#referenceFormulation> rdf:type owl:AnnotationProperty .
+
+
+###  http://semweb.mmlab.be/ns/rml#source
+<http://semweb.mmlab.be/ns/rml#source> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/r2rml#child
+<http://www.w3.org/ns/r2rml#child> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/r2rml#constant
+<http://www.w3.org/ns/r2rml#constant> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/r2rml#joinCondition
+<http://www.w3.org/ns/r2rml#joinCondition> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/r2rml#objectMap
+<http://www.w3.org/ns/r2rml#objectMap> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/r2rml#parent
+<http://www.w3.org/ns/r2rml#parent> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/r2rml#parentTriplesMap
+<http://www.w3.org/ns/r2rml#parentTriplesMap> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/r2rml#predicateMap
+<http://www.w3.org/ns/r2rml#predicateMap> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/r2rml#predicateObjectMap
+<http://www.w3.org/ns/r2rml#predicateObjectMap> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/r2rml#subjectMap
+<http://www.w3.org/ns/r2rml#subjectMap> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/r2rml#template
+<http://www.w3.org/ns/r2rml#template> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/r2rml#termType
+<http://www.w3.org/ns/r2rml#termType> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://semweb.mmlab.be/ns/rml#LogicalSource
+<http://semweb.mmlab.be/ns/rml#LogicalSource> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/r2rml#ObjectMap
+<http://www.w3.org/ns/r2rml#ObjectMap> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/r2rml#PredicateMap
+<http://www.w3.org/ns/r2rml#PredicateMap> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/r2rml#PredicateObjectMap
+<http://www.w3.org/ns/r2rml#PredicateObjectMap> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/r2rml#SubjectMap
+<http://www.w3.org/ns/r2rml#SubjectMap> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/r2rml#TriplesMap
+<http://www.w3.org/ns/r2rml#TriplesMap> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://mapping.example.com/map_location_0
+<http://mapping.example.com/map_location_0> rdf:type owl:NamedIndividual ,
+                                                     <http://www.w3.org/ns/r2rml#TriplesMap> ;
+                                            <http://semweb.mmlab.be/ns/rml#logicalSource> <http://mapping.example.com/source_1> ;
+                                            rdfs:label "location" ;
+                                            <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_14> ,
+                                                                                            <http://mapping.example.com/pom_15> ,
+                                                                                            <http://mapping.example.com/pom_16> ,
+                                                                                            <http://mapping.example.com/pom_17> ,
+                                                                                            <http://mapping.example.com/pom_18> ,
+                                                                                            <http://mapping.example.com/pom_19> ,
+                                                                                            <http://mapping.example.com/pom_20> ,
+                                                                                            <http://mapping.example.com/pom_21> ,
+                                                                                            <http://mapping.example.com/pom_22> ,
+                                                                                            <http://mapping.example.com/pom_23> ,
+                                                                                            <http://mapping.example.com/pom_24> ,
+                                                                                            <http://mapping.example.com/pom_25> ,
+                                                                                            <http://mapping.example.com/pom_26> ,
+                                                                                            <http://mapping.example.com/pom_27> ,
+                                                                                            <http://mapping.example.com/pom_28> ,
+                                                                                            <http://mapping.example.com/pom_29> ,
+                                                                                            <http://mapping.example.com/pom_30> ,
+                                                                                            <http://mapping.example.com/pom_31> ;
+                                            <http://www.w3.org/ns/r2rml#subjectMap> <http://mapping.example.com/s_1> .
+
+
+###  http://mapping.example.com/map_space_0
+<http://mapping.example.com/map_space_0> rdf:type owl:NamedIndividual ,
+                                                  <http://www.w3.org/ns/r2rml#TriplesMap> ;
+                                         <http://semweb.mmlab.be/ns/rml#logicalSource> <http://mapping.example.com/source_0> ;
+                                         rdfs:label "space" ;
+                                         <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_0> ,
+                                                                                         <http://mapping.example.com/pom_1> ,
+                                                                                         <http://mapping.example.com/pom_10> ,
+                                                                                         <http://mapping.example.com/pom_11> ,
+                                                                                         <http://mapping.example.com/pom_12> ,
+                                                                                         <http://mapping.example.com/pom_13> ,
+                                                                                         <http://mapping.example.com/pom_2> ,
+                                                                                         <http://mapping.example.com/pom_3> ,
+                                                                                         <http://mapping.example.com/pom_4> ,
+                                                                                         <http://mapping.example.com/pom_5> ,
+                                                                                         <http://mapping.example.com/pom_6> ,
+                                                                                         <http://mapping.example.com/pom_7> ,
+                                                                                         <http://mapping.example.com/pom_8> ,
+                                                                                         <http://mapping.example.com/pom_9> ;
+                                         <http://www.w3.org/ns/r2rml#subjectMap> <http://mapping.example.com/s_0> .
+
+
+###  http://mapping.example.com/om_0
+<http://mapping.example.com/om_0> rdf:type owl:NamedIndividual ,
+                                           <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                  <http://www.w3.org/ns/r2rml#constant> "https://freewifizones/madrid/space" ;
+                                  <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#IRI> .
+
+
+###  http://mapping.example.com/om_1
+<http://mapping.example.com/om_1> rdf:type owl:NamedIndividual ,
+                                           <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                  <http://semweb.mmlab.be/ns/rml#reference> "NOMBRE" ;
+                                  <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+
+
+###  http://mapping.example.com/om_10
+<http://mapping.example.com/om_10> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                   <http://semweb.mmlab.be/ns/rml#reference> "EMAIL" ;
+                                   <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+
+
+###  http://mapping.example.com/om_11
+<http://mapping.example.com/om_11> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                   <http://semweb.mmlab.be/ns/rml#reference> "CONTACTO" ;
+                                   <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+
+
+###  http://mapping.example.com/om_12
+<http://mapping.example.com/om_12> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                   <http://semweb.mmlab.be/ns/rml#reference> "TIPO" ;
+                                   <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+
+
+###  http://mapping.example.com/om_13
+<http://mapping.example.com/om_13> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                   <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_0> ;
+                                   <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_location_0> .
+
+
+###  http://mapping.example.com/om_14
+<http://mapping.example.com/om_14> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                   <http://www.w3.org/ns/r2rml#constant> "https://freewifizones/madrid/location" ;
+                                   <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#IRI> .
+
+
+###  http://mapping.example.com/om_15
+<http://mapping.example.com/om_15> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                   <http://semweb.mmlab.be/ns/rml#reference> "DIRECCION" ;
+                                   <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+
+
+###  http://mapping.example.com/om_16
+<http://mapping.example.com/om_16> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                   <http://semweb.mmlab.be/ns/rml#reference> "NOMBRE-VIA" ;
+                                   <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+
+
+###  http://mapping.example.com/om_17
+<http://mapping.example.com/om_17> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                   <http://semweb.mmlab.be/ns/rml#reference> "CLASE-VIAL" ;
+                                   <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+
+
+###  http://mapping.example.com/om_18
+<http://mapping.example.com/om_18> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                   <http://semweb.mmlab.be/ns/rml#reference> "TIPO-NUM" ;
+                                   <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+
+
+###  http://mapping.example.com/om_19
+<http://mapping.example.com/om_19> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                   <http://semweb.mmlab.be/ns/rml#reference> "NUM" ;
+                                   <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+
+
+###  http://mapping.example.com/om_2
+<http://mapping.example.com/om_2> rdf:type owl:NamedIndividual ,
+                                           <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                  <http://semweb.mmlab.be/ns/rml#reference> "HORARIO" ;
+                                  <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+
+
+###  http://mapping.example.com/om_20
+<http://mapping.example.com/om_20> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                   <http://semweb.mmlab.be/ns/rml#reference> "PLANTA" ;
+                                   <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+
+
+###  http://mapping.example.com/om_21
+<http://mapping.example.com/om_21> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                   <http://semweb.mmlab.be/ns/rml#reference> "ORIENTACION" ;
+                                   <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+
+
+###  http://mapping.example.com/om_22
+<http://mapping.example.com/om_22> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                   <http://semweb.mmlab.be/ns/rml#reference> "LOCALIDAD" ;
+                                   <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+
+
+###  http://mapping.example.com/om_23
+<http://mapping.example.com/om_23> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                   <http://semweb.mmlab.be/ns/rml#reference> "PROVINCIA" ;
+                                   <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+
+
+###  http://mapping.example.com/om_24
+<http://mapping.example.com/om_24> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                   <http://semweb.mmlab.be/ns/rml#reference> "CODIGO-POSTAL" ;
+                                   <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+
+
+###  http://mapping.example.com/om_25
+<http://mapping.example.com/om_25> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                   <http://semweb.mmlab.be/ns/rml#reference> "BARRIO" ;
+                                   <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+
+
+###  http://mapping.example.com/om_26
+<http://mapping.example.com/om_26> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                   <http://semweb.mmlab.be/ns/rml#reference> "DISTRITO" ;
+                                   <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+
+
+###  http://mapping.example.com/om_27
+<http://mapping.example.com/om_27> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                   <http://semweb.mmlab.be/ns/rml#reference> "COORDENADA-X" ;
+                                   <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+
+
+###  http://mapping.example.com/om_28
+<http://mapping.example.com/om_28> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                   <http://semweb.mmlab.be/ns/rml#reference> "COORDENADA-Y" ;
+                                   <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+
+
+###  http://mapping.example.com/om_29
+<http://mapping.example.com/om_29> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                   <http://semweb.mmlab.be/ns/rml#reference> "LATITUD" ;
+                                   <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+
+
+###  http://mapping.example.com/om_3
+<http://mapping.example.com/om_3> rdf:type owl:NamedIndividual ,
+                                           <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                  <http://semweb.mmlab.be/ns/rml#reference> "EQUIPAMIENTO" ;
+                                  <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+
+
+###  http://mapping.example.com/om_30
+<http://mapping.example.com/om_30> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                   <http://semweb.mmlab.be/ns/rml#reference> "LONGITUD" ;
+                                   <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+
+
+###  http://mapping.example.com/om_31
+<http://mapping.example.com/om_31> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                   <http://semweb.mmlab.be/ns/rml#reference> "COORDENADAS-GEO" ;
+                                   <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+
+
+###  http://mapping.example.com/om_4
+<http://mapping.example.com/om_4> rdf:type owl:NamedIndividual ,
+                                           <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                  <http://semweb.mmlab.be/ns/rml#reference> "DESCRIPCION-ENTIDAD" ;
+                                  <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+
+
+###  http://mapping.example.com/om_5
+<http://mapping.example.com/om_5> rdf:type owl:NamedIndividual ,
+                                           <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                  <http://semweb.mmlab.be/ns/rml#reference> "DESCRIPCION" ;
+                                  <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+
+
+###  http://mapping.example.com/om_6
+<http://mapping.example.com/om_6> rdf:type owl:NamedIndividual ,
+                                           <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                  <http://semweb.mmlab.be/ns/rml#reference> "TRANSPORTE" ;
+                                  <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+
+
+###  http://mapping.example.com/om_7
+<http://mapping.example.com/om_7> rdf:type owl:NamedIndividual ,
+                                           <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                  <http://semweb.mmlab.be/ns/rml#reference> "TELEFONO" ;
+                                  <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+
+
+###  http://mapping.example.com/om_8
+<http://mapping.example.com/om_8> rdf:type owl:NamedIndividual ,
+                                           <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                  <http://semweb.mmlab.be/ns/rml#reference> "ACCESIBILIDAD" ;
+                                  <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+
+
+###  http://mapping.example.com/om_9
+<http://mapping.example.com/om_9> rdf:type owl:NamedIndividual ,
+                                           <http://www.w3.org/ns/r2rml#ObjectMap> ;
+                                  <http://semweb.mmlab.be/ns/rml#reference> "CONTENT-URL" ;
+                                  <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#IRI> .
+
+
+###  http://mapping.example.com/pm_0
+<http://mapping.example.com/pm_0> rdf:type owl:NamedIndividual ,
+                                           <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                  <http://www.w3.org/ns/r2rml#constant> rdf:type .
+
+
+###  http://mapping.example.com/pm_1
+<http://mapping.example.com/pm_1> rdf:type owl:NamedIndividual ,
+                                           <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                  <http://www.w3.org/ns/r2rml#constant> <https://freewifizones/madrid/space#hasName> .
+
+
+###  http://mapping.example.com/pm_10
+<http://mapping.example.com/pm_10> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                   <http://www.w3.org/ns/r2rml#constant> <https://freewifizones/madrid/space#hasEmail> .
+
+
+###  http://mapping.example.com/pm_11
+<http://mapping.example.com/pm_11> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                   <http://www.w3.org/ns/r2rml#constant> <https://freewifizones/madrid/space#hasContact> .
+
+
+###  http://mapping.example.com/pm_12
+<http://mapping.example.com/pm_12> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                   <http://www.w3.org/ns/r2rml#constant> <https://freewifizones/madrid/space#hasType> .
+
+
+###  http://mapping.example.com/pm_13
+<http://mapping.example.com/pm_13> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                   <http://www.w3.org/ns/r2rml#constant> <https://freewifizones/madrid/space#hasLocation> .
+
+
+###  http://mapping.example.com/pm_14
+<http://mapping.example.com/pm_14> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                   <http://www.w3.org/ns/r2rml#constant> rdf:type .
+
+
+###  http://mapping.example.com/pm_15
+<http://mapping.example.com/pm_15> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                   <http://www.w3.org/ns/r2rml#constant> <https://freewifizones/madrid/location#address> .
+
+
+###  http://mapping.example.com/pm_16
+<http://mapping.example.com/pm_16> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                   <http://www.w3.org/ns/r2rml#constant> <https://freewifizones/madrid/location#addressName> .
+
+
+###  http://mapping.example.com/pm_17
+<http://mapping.example.com/pm_17> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                   <http://www.w3.org/ns/r2rml#constant> <https://freewifizones/madrid/location#addressType> .
+
+
+###  http://mapping.example.com/pm_18
+<http://mapping.example.com/pm_18> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                   <http://www.w3.org/ns/r2rml#constant> <https://freewifizones/madrid/location#typeNum> .
+
+
+###  http://mapping.example.com/pm_19
+<http://mapping.example.com/pm_19> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                   <http://www.w3.org/ns/r2rml#constant> <https://freewifizones/madrid/location#num> .
+
+
+###  http://mapping.example.com/pm_2
+<http://mapping.example.com/pm_2> rdf:type owl:NamedIndividual ,
+                                           <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                  <http://www.w3.org/ns/r2rml#constant> <https://freewifizones/madrid/space#hasSchedule> .
+
+
+###  http://mapping.example.com/pm_20
+<http://mapping.example.com/pm_20> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                   <http://www.w3.org/ns/r2rml#constant> <https://freewifizones/madrid/location#floor> .
+
+
+###  http://mapping.example.com/pm_21
+<http://mapping.example.com/pm_21> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                   <http://www.w3.org/ns/r2rml#constant> <https://freewifizones/madrid/location#orientation> .
+
+
+###  http://mapping.example.com/pm_22
+<http://mapping.example.com/pm_22> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                   <http://www.w3.org/ns/r2rml#constant> <https://freewifizones/madrid/location#locality> .
+
+
+###  http://mapping.example.com/pm_23
+<http://mapping.example.com/pm_23> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                   <http://www.w3.org/ns/r2rml#constant> <https://freewifizones/madrid/location#province> .
+
+
+###  http://mapping.example.com/pm_24
+<http://mapping.example.com/pm_24> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                   <http://www.w3.org/ns/r2rml#constant> <https://freewifizones/madrid/location#cp> .
+
+
+###  http://mapping.example.com/pm_25
+<http://mapping.example.com/pm_25> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                   <http://www.w3.org/ns/r2rml#constant> <https://freewifizones/madrid/location#neighbourhood> .
+
+
+###  http://mapping.example.com/pm_26
+<http://mapping.example.com/pm_26> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                   <http://www.w3.org/ns/r2rml#constant> <https://freewifizones/madrid/location#district> .
+
+
+###  http://mapping.example.com/pm_27
+<http://mapping.example.com/pm_27> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                   <http://www.w3.org/ns/r2rml#constant> <https://freewifizones/madrid/location#xcoordinate> .
+
+
+###  http://mapping.example.com/pm_28
+<http://mapping.example.com/pm_28> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                   <http://www.w3.org/ns/r2rml#constant> <https://freewifizones/madrid/location#ycoordinate> .
+
+
+###  http://mapping.example.com/pm_29
+<http://mapping.example.com/pm_29> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                   <http://www.w3.org/ns/r2rml#constant> <https://freewifizones/madrid/location#latitude> .
+
+
+###  http://mapping.example.com/pm_3
+<http://mapping.example.com/pm_3> rdf:type owl:NamedIndividual ,
+                                           <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                  <http://www.w3.org/ns/r2rml#constant> <https://freewifizones/madrid/space#hasEquipment> .
+
+
+###  http://mapping.example.com/pm_30
+<http://mapping.example.com/pm_30> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                   <http://www.w3.org/ns/r2rml#constant> <https://freewifizones/madrid/location#longitude> .
+
+
+###  http://mapping.example.com/pm_31
+<http://mapping.example.com/pm_31> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                   <http://www.w3.org/ns/r2rml#constant> <https://freewifizones/madrid/location#geographicalCoordinates> .
+
+
+###  http://mapping.example.com/pm_4
+<http://mapping.example.com/pm_4> rdf:type owl:NamedIndividual ,
+                                           <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                  <http://www.w3.org/ns/r2rml#constant> <https://freewifizones/madrid/space#hasDescriptionEntity> .
+
+
+###  http://mapping.example.com/pm_5
+<http://mapping.example.com/pm_5> rdf:type owl:NamedIndividual ,
+                                           <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                  <http://www.w3.org/ns/r2rml#constant> <https://freewifizones/madrid/space#hasDescription> .
+
+
+###  http://mapping.example.com/pm_6
+<http://mapping.example.com/pm_6> rdf:type owl:NamedIndividual ,
+                                           <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                  <http://www.w3.org/ns/r2rml#constant> <https://freewifizones/madrid/space#hasRoute> .
+
+
+###  http://mapping.example.com/pm_7
+<http://mapping.example.com/pm_7> rdf:type owl:NamedIndividual ,
+                                           <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                  <http://www.w3.org/ns/r2rml#constant> <https://freewifizones/madrid/space#hasTelephone> .
+
+
+###  http://mapping.example.com/pm_8
+<http://mapping.example.com/pm_8> rdf:type owl:NamedIndividual ,
+                                           <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                  <http://www.w3.org/ns/r2rml#constant> <https://freewifizones/madrid/space#hasAccesibility> .
+
+
+###  http://mapping.example.com/pm_9
+<http://mapping.example.com/pm_9> rdf:type owl:NamedIndividual ,
+                                           <http://www.w3.org/ns/r2rml#PredicateMap> ;
+                                  <http://www.w3.org/ns/r2rml#constant> <https://freewifizones/madrid/space#hasUrl> .
+
+
+###  http://mapping.example.com/pom_0
+<http://mapping.example.com/pom_0> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                   <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_0> ;
+                                   <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_0> .
+
+
+###  http://mapping.example.com/pom_1
+<http://mapping.example.com/pom_1> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                   <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_1> ;
+                                   <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_1> .
+
+
+###  http://mapping.example.com/pom_10
+<http://mapping.example.com/pom_10> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                    <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_10> ;
+                                    <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_10> .
+
+
+###  http://mapping.example.com/pom_11
+<http://mapping.example.com/pom_11> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                    <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_11> ;
+                                    <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_11> .
+
+
+###  http://mapping.example.com/pom_12
+<http://mapping.example.com/pom_12> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                    <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_12> ;
+                                    <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_12> .
+
+
+###  http://mapping.example.com/pom_13
+<http://mapping.example.com/pom_13> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                    <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_13> ;
+                                    <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_13> .
+
+
+###  http://mapping.example.com/pom_14
+<http://mapping.example.com/pom_14> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                    <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_14> ;
+                                    <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_14> .
+
+
+###  http://mapping.example.com/pom_15
+<http://mapping.example.com/pom_15> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                    <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_15> ;
+                                    <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_15> .
+
+
+###  http://mapping.example.com/pom_16
+<http://mapping.example.com/pom_16> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                    <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_16> ;
+                                    <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_16> .
+
+
+###  http://mapping.example.com/pom_17
+<http://mapping.example.com/pom_17> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                    <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_17> ;
+                                    <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_17> .
+
+
+###  http://mapping.example.com/pom_18
+<http://mapping.example.com/pom_18> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                    <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_18> ;
+                                    <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_18> .
+
+
+###  http://mapping.example.com/pom_19
+<http://mapping.example.com/pom_19> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                    <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_19> ;
+                                    <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_19> .
+
+
+###  http://mapping.example.com/pom_2
+<http://mapping.example.com/pom_2> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                   <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_2> ;
+                                   <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_2> .
+
+
+###  http://mapping.example.com/pom_20
+<http://mapping.example.com/pom_20> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                    <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_20> ;
+                                    <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_20> .
+
+
+###  http://mapping.example.com/pom_21
+<http://mapping.example.com/pom_21> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                    <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_21> ;
+                                    <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_21> .
+
+
+###  http://mapping.example.com/pom_22
+<http://mapping.example.com/pom_22> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                    <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_22> ;
+                                    <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_22> .
+
+
+###  http://mapping.example.com/pom_23
+<http://mapping.example.com/pom_23> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                    <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_23> ;
+                                    <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_23> .
+
+
+###  http://mapping.example.com/pom_24
+<http://mapping.example.com/pom_24> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                    <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_24> ;
+                                    <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_24> .
+
+
+###  http://mapping.example.com/pom_25
+<http://mapping.example.com/pom_25> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                    <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_25> ;
+                                    <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_25> .
+
+
+###  http://mapping.example.com/pom_26
+<http://mapping.example.com/pom_26> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                    <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_26> ;
+                                    <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_26> .
+
+
+###  http://mapping.example.com/pom_27
+<http://mapping.example.com/pom_27> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                    <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_27> ;
+                                    <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_27> .
+
+
+###  http://mapping.example.com/pom_28
+<http://mapping.example.com/pom_28> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                    <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_28> ;
+                                    <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_28> .
+
+
+###  http://mapping.example.com/pom_29
+<http://mapping.example.com/pom_29> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                    <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_29> ;
+                                    <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_29> .
+
+
+###  http://mapping.example.com/pom_3
+<http://mapping.example.com/pom_3> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                   <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_3> ;
+                                   <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_3> .
+
+
+###  http://mapping.example.com/pom_30
+<http://mapping.example.com/pom_30> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                    <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_30> ;
+                                    <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_30> .
+
+
+###  http://mapping.example.com/pom_31
+<http://mapping.example.com/pom_31> rdf:type owl:NamedIndividual ,
+                                             <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                    <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_31> ;
+                                    <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_31> .
+
+
+###  http://mapping.example.com/pom_4
+<http://mapping.example.com/pom_4> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                   <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_4> ;
+                                   <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_4> .
+
+
+###  http://mapping.example.com/pom_5
+<http://mapping.example.com/pom_5> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                   <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_5> ;
+                                   <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_5> .
+
+
+###  http://mapping.example.com/pom_6
+<http://mapping.example.com/pom_6> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                   <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_6> ;
+                                   <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_6> .
+
+
+###  http://mapping.example.com/pom_7
+<http://mapping.example.com/pom_7> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                   <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_7> ;
+                                   <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_7> .
+
+
+###  http://mapping.example.com/pom_8
+<http://mapping.example.com/pom_8> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                   <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_8> ;
+                                   <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_8> .
+
+
+###  http://mapping.example.com/pom_9
+<http://mapping.example.com/pom_9> rdf:type owl:NamedIndividual ,
+                                            <http://www.w3.org/ns/r2rml#PredicateObjectMap> ;
+                                   <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_9> ;
+                                   <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_9> .
+
+
+###  http://mapping.example.com/s_0
+<http://mapping.example.com/s_0> rdf:type owl:NamedIndividual ,
+                                          <http://www.w3.org/ns/r2rml#SubjectMap> ;
+                                 <http://www.w3.org/ns/r2rml#template> "https://freewifizones/madrid/space/{PK}" .
+
+
+###  http://mapping.example.com/s_1
+<http://mapping.example.com/s_1> rdf:type owl:NamedIndividual ,
+                                          <http://www.w3.org/ns/r2rml#SubjectMap> ;
+                                 <http://www.w3.org/ns/r2rml#template> "https://freewifizones/madrid/location/{COORDENADAS}" .
+
+
+###  http://mapping.example.com/source_0
+<http://mapping.example.com/source_0> rdf:type owl:NamedIndividual ,
+                                               <http://semweb.mmlab.be/ns/rml#LogicalSource> ;
+                                      <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> ;
+                                      <http://semweb.mmlab.be/ns/rml#source> "216619-0-wifi-municipal-updated.csv" .
+
+
+###  http://mapping.example.com/source_1
+<http://mapping.example.com/source_1> rdf:type owl:NamedIndividual ,
+                                               <http://semweb.mmlab.be/ns/rml#LogicalSource> ;
+                                      <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> ;
+                                      <http://semweb.mmlab.be/ns/rml#source> "216619-0-wifi-municipal-updated.csv" .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+<http://mapping.example.com/jc_0> <http://www.w3.org/ns/r2rml#child> "COORDENADAS" ;
+                                  <http://www.w3.org/ns/r2rml#parent> "COORDENADAS" .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

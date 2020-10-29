@@ -1,0 +1,134 @@
+<http://group56.org/zonas-verdes/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://group56.org/zonas-verdes/situadoen
+<http://group56.org/zonas-verdes/situadoen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://group56.org/zonas-verdes/situadoen> <http://www.w3.org/2000/01/rdf-schema#domain> <http://group56.org/zonas-verdes/Subepigrafe> .
+<http://group56.org/zonas-verdes/situadoen> <http://www.w3.org/2000/01/rdf-schema#range> <http://group56.org/zonas-verdes/SituacionDestino> .
+# 
+# http://group56.org/zonas-verdes/tieneApartado
+<http://group56.org/zonas-verdes/tieneApartado> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://group56.org/zonas-verdes/tieneApartado> <http://www.w3.org/2000/01/rdf-schema#domain> <http://group56.org/zonas-verdes/Subepigrafe> .
+<http://group56.org/zonas-verdes/tieneApartado> <http://www.w3.org/2000/01/rdf-schema#range> <http://group56.org/zonas-verdes/Apartado> .
+# 
+# http://group56.org/zonas-verdes/tieneCalle
+<http://group56.org/zonas-verdes/tieneCalle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://group56.org/zonas-verdes/tieneCalle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://group56.org/zonas-verdes/Distrito> .
+<http://group56.org/zonas-verdes/tieneCalle> <http://www.w3.org/2000/01/rdf-schema#range> <http://group56.org/zonas-verdes/SituacionDestino> .
+# 
+# http://group56.org/zonas-verdes/tieneDestino
+<http://group56.org/zonas-verdes/tieneDestino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://group56.org/zonas-verdes/tieneDestino> <http://www.w3.org/2000/01/rdf-schema#domain> <http://group56.org/zonas-verdes/Subepigrafe> .
+<http://group56.org/zonas-verdes/tieneDestino> <http://www.w3.org/2000/01/rdf-schema#range> <http://group56.org/zonas-verdes/Destino> .
+# 
+# http://group56.org/zonas-verdes/tieneNaturaleza
+<http://group56.org/zonas-verdes/tieneNaturaleza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://group56.org/zonas-verdes/tieneNaturaleza> <http://www.w3.org/2000/01/rdf-schema#domain> <http://group56.org/zonas-verdes/Distrito> .
+<http://group56.org/zonas-verdes/tieneNaturaleza> <http://www.w3.org/2000/01/rdf-schema#range> <http://group56.org/zonas-verdes/NaturalezaInmueble> .
+# 
+# http://group56.org/zonas-verdes/tieneNdeArchivo
+<http://group56.org/zonas-verdes/tieneNdeArchivo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://group56.org/zonas-verdes/tieneNdeArchivo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://group56.org/zonas-verdes/Subepigrafe> .
+<http://group56.org/zonas-verdes/tieneNdeArchivo> <http://www.w3.org/2000/01/rdf-schema#range> <http://group56.org/zonas-verdes/NdeArchivo> .
+# 
+# http://group56.org/zonas-verdes/tieneSolar
+<http://group56.org/zonas-verdes/tieneSolar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://group56.org/zonas-verdes/tieneSolar> <http://www.w3.org/2000/01/rdf-schema#domain> <http://group56.org/zonas-verdes/Subepigrafe> .
+<http://group56.org/zonas-verdes/tieneSolar> <http://www.w3.org/2000/01/rdf-schema#range> <http://group56.org/zonas-verdes/Solar> .
+# 
+# http://group56.org/zonas-verdes/tieneSubepigrafe
+<http://group56.org/zonas-verdes/tieneSubepigrafe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://group56.org/zonas-verdes/tieneSubepigrafe> <http://www.w3.org/2000/01/rdf-schema#domain> <http://group56.org/zonas-verdes/Distrito> .
+<http://group56.org/zonas-verdes/tieneSubepigrafe> <http://www.w3.org/2000/01/rdf-schema#range> <http://group56.org/zonas-verdes/Subepigrafe> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://group56.org/zonas-verdes/nombreApartado
+<http://group56.org/zonas-verdes/nombreApartado> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://group56.org/zonas-verdes/nombreApartado> <http://www.w3.org/2000/01/rdf-schema#domain> <http://group56.org/zonas-verdes/Apartado> .
+<http://group56.org/zonas-verdes/nombreApartado> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://group56.org/zonas-verdes/nombreCalle
+<http://group56.org/zonas-verdes/nombreCalle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://group56.org/zonas-verdes/nombreCalle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://group56.org/zonas-verdes/SituacionDestino> .
+<http://group56.org/zonas-verdes/nombreCalle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://group56.org/zonas-verdes/nombreDestino
+<http://group56.org/zonas-verdes/nombreDestino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://group56.org/zonas-verdes/nombreDestino> <http://www.w3.org/2000/01/rdf-schema#domain> <http://group56.org/zonas-verdes/Destino> .
+<http://group56.org/zonas-verdes/nombreDestino> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://group56.org/zonas-verdes/nombreDistrito
+<http://group56.org/zonas-verdes/nombreDistrito> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://group56.org/zonas-verdes/nombreDistrito> <http://www.w3.org/2000/01/rdf-schema#domain> <http://group56.org/zonas-verdes/Distrito> .
+<http://group56.org/zonas-verdes/nombreDistrito> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://group56.org/zonas-verdes/nombreNaturaleza
+<http://group56.org/zonas-verdes/nombreNaturaleza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://group56.org/zonas-verdes/nombreNaturaleza> <http://www.w3.org/2000/01/rdf-schema#domain> <http://group56.org/zonas-verdes/NaturalezaInmueble> .
+<http://group56.org/zonas-verdes/nombreNaturaleza> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://group56.org/zonas-verdes/nombreSubepigrafe
+<http://group56.org/zonas-verdes/nombreSubepigrafe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://group56.org/zonas-verdes/nombreSubepigrafe> <http://www.w3.org/2000/01/rdf-schema#domain> <http://group56.org/zonas-verdes/Subepigrafe> .
+<http://group56.org/zonas-verdes/nombreSubepigrafe> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://group56.org/zonas-verdes/numeroArchivo
+<http://group56.org/zonas-verdes/numeroArchivo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://group56.org/zonas-verdes/numeroArchivo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://group56.org/zonas-verdes/NdeArchivo> .
+<http://group56.org/zonas-verdes/numeroArchivo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://group56.org/zonas-verdes/tamanioSolar
+<http://group56.org/zonas-verdes/tamanioSolar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://group56.org/zonas-verdes/tamanioSolar> <http://www.w3.org/2000/01/rdf-schema#domain> <http://group56.org/zonas-verdes/Solar> .
+<http://group56.org/zonas-verdes/tamanioSolar> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://group56.org/zonas-verdes/Apartado
+<http://group56.org/zonas-verdes/Apartado> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://group56.org/zonas-verdes/Destino
+<http://group56.org/zonas-verdes/Destino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://group56.org/zonas-verdes/Distrito
+<http://group56.org/zonas-verdes/Distrito> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://group56.org/zonas-verdes/NaturalezaInmueble
+<http://group56.org/zonas-verdes/NaturalezaInmueble> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://group56.org/zonas-verdes/NdeArchivo
+<http://group56.org/zonas-verdes/NdeArchivo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://group56.org/zonas-verdes/SituacionDestino
+<http://group56.org/zonas-verdes/SituacionDestino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://group56.org/zonas-verdes/Solar
+<http://group56.org/zonas-verdes/Solar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://group56.org/zonas-verdes/Subepigrafe
+<http://group56.org/zonas-verdes/Subepigrafe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

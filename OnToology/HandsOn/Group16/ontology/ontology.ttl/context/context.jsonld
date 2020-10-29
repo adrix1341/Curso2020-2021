@@ -1,0 +1,33 @@
+{
+  "@context" : {
+    "measuredAt" : {
+      "@id" : "http://www.semanticweb.org/group16/ontologies/air-quality#measuredAt",
+      "@type" : "@id"
+    },
+    "dateOfMeasure" : {
+      "@id" : "http://www.semanticweb.org/group16/ontologies/air-quality#dateOfMeasure",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "measureType" : {
+      "@id" : "http://www.semanticweb.org/group16/ontologies/air-quality#measureType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "stationCode" : {
+      "@id" : "http://www.semanticweb.org/group16/ontologies/air-quality#stationCode",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "measureValue" : {
+      "@id" : "http://www.semanticweb.org/group16/ontologies/air-quality#measureValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "Measurement" : {
+      "@id" : "http://www.semanticweb.org/group16/ontologies/air-quality#Measurement"
+    },
+    "Station" : {
+      "@id" : "http://www.semanticweb.org/group16/ontologies/air-quality#Station"
+    },
+    "Place" : {
+      "@id" : "https://schema.org/Place"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "base:Measure" "base:Indicator" "base:Country" ; /*classes style*/
+	"base:Country" -> "base:Indicator" [ label = "base:hasIndicator" ];
+	"base:Measure" -> "xsd:integer" [ label = "base:date" ];
+	"base:Indicator" -> "xsd:string" [ label = "base:indicatorCode" ];
+	"base:Country" -> "xsd:string" [ label = "base:countryISO3" ];
+	"base:Indicator" -> "base:Measure" [ label = "base:hasMeasure" ];
+	"base:Indicator" -> "xsd:string" [ label = "base:indicatorName" ];
+	"base:Country" -> "xsd:string" [ label = "base:countryName" ];
+	"base:Measure" -> "xsd:double" [ label = "base:value" ];
+
+}

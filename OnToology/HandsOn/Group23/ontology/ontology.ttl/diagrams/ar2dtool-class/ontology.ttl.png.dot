@@ -1,0 +1,16 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "base:Glass" "base:Containers" "base:Population" "base:Town" ; /*classes style*/
+	"base:Town" -> "base:Population" [ label = "base:livingIn" ];
+	"base:Town" -> "xsd:integer" [ label = "base:hasCode" ];
+	"base:Glass" -> "xsd:integer" [ label = "base:glassAtYear" ];
+	"base:Town" -> "xsd:string" [ label = "base:hasName" ];
+	"base:Population" -> "xsd:integer" [ label = "base:numberOfPeople" ];
+	"base:Containers" -> "xsd:integer" [ label = "base:containersAtYear" ];
+	"base:Town" -> "base:Containers" [ label = "base:locatedIn" ];
+	"base:Containers" -> "xsd:integer" [ label = "base:numberOfContainers" ];
+	"base:Glass" -> "xsd:integer" [ label = "base:numberOfGlass" ];
+	"base:Population" -> "xsd:integer" [ label = "base:haspopulationAtYear" ];
+
+}
